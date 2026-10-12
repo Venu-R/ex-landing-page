@@ -1,0 +1,25 @@
+{
+  "name": "example-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parse:docx": "tsx src/parsers/parse-docx.ts",
+    "normalize:figma": "tsx src/normalizers/normalize-figma.ts",
+    "build:blueprint": "tsx src/blueprint/build-blueprint.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "mammoth": "^1.13.0",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
