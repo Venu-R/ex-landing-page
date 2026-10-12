@@ -1,5 +1,6 @@
 :root {
   --bdmg-font-body: Arial, Helvetica, sans-serif;
+
   --bdmg-color-text: #172033;
   --bdmg-color-muted: #64748b;
   --bdmg-color-background: #ffffff;
@@ -21,4 +22,8 @@
   --bdmg-radius-lg: 1rem;
 
   --bdmg-content-width: 72rem;
+}
+
+* {
+  box-sizing: border-box;
 }

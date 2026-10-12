@@ -7,7 +7,7 @@
     "designFile": "output\\normalized-design.json",
     "contentFilename": "content.docx",
     "designFilename": "figma-response.json",
-    "designSourceUrl": "https://www.figma.com/design/FJzE72i3SqY8FxlWrJVfHD/Example-Landing-Page?node-id=0-1&p=f&t=BAwC5ZIa5xDaluBK-0"
+    "designSourceUrl": null
   },
   "content": {
     "schemaVersion": "2.1.0",
@@ -1141,7 +1141,7 @@
       "version": "2409419615899611238",
       "role": "owner",
       "editorType": "figma",
-      "sourceUrl": "https://www.figma.com/design/FJzE72i3SqY8FxlWrJVfHD/Example-Landing-Page?node-id=0-1&p=f&t=BAwC5ZIa5xDaluBK-0"
+      "sourceUrl": null
     },
     "canvas": {
       "bounds": {
@@ -392368,6 +392368,7 @@
     "errors": [],
     "warnings": [
       "One or more renderable content sections do not have a confident design-container mapping.",
+      "Figma source URL is missing; set BDMG_FIGMA_URL or FIGMA_SOURCE_URL, or include sourceUrl in normalized-design.json.",
       "Some renderable section-to-design mappings are unverified. Do not generate from these mappings without review."
     ],
     "checks": [
@@ -392403,8 +392404,8 @@
       },
       {
         "name": "source traceability",
-        "passed": true,
-        "details": "Figma source URL is recorded."
+        "passed": false,
+        "details": "Figma source URL is missing."
       }
     ]
   }
