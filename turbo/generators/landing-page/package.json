@@ -1,0 +1,26 @@
+{
+  "name": "@bdmg/landing-page-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "bdmg-generate": "./src/cli.ts"
+  },
+  "scripts": {
+    "generate": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@bdmg/types": "workspace:*",
+    "@bdmg/ui": "workspace:*",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "@bdmg/config": "workspace:*",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^3.0.0"
+  }
+}

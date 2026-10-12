@@ -1,17 +1,18 @@
+
 {
-  "name": "example-landing-page",
+  "name": "bdmg-landing-page-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
   "scripts": {
     "parse:docx": "tsx src/parsers/parse-docx.ts",
     "normalize:figma": "tsx src/normalizers/normalize-figma.ts",
-    "build:blueprint": "tsx src/blueprint/build-blueprint.ts"
+    "build:blueprint": "tsx src/blueprint/build-blueprint.ts",
+    "pipeline": "pnpm parse:docx && pnpm normalize:figma && pnpm build:blueprint",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cheerio": "^1.2.0",
     "mammoth": "^1.13.0",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@types/node": "^26.6.5",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "turbo": "^2.5.0"
   }
 }
