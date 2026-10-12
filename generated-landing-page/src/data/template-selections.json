@@ -1,0 +1,600 @@
+[
+  {
+    "sectionId": "01-general-content",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "02-source-and-overview",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "03-1-navigation-and-hero",
+    "templateId": "navigation-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "pricing-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The section has no mapped Figma design node."
+    ]
+  },
+  {
+    "sectionId": "04-hero",
+    "templateId": "hero-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "pricing-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "sectionId": "05-2-site-pricing",
+    "templateId": "pricing-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "sectionId": "06-3-team-pricing",
+    "templateId": "pricing-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "sectionId": "07-4-business-plan",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "08-services",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "09-infrastructure",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "10-legal-security",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "11-5-feature-comparison",
+    "templateId": "comparison-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "sectionId": "12-6-site-plans-summary",
+    "templateId": "pricing-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "sectionId": "13-7-faq",
+    "templateId": "faq-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "sectionId": "14-8-footer",
+    "templateId": "footer-default",
+    "confidence": 0.8,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "sectionId": "15-company",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "16-product",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "17-templates",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  },
+  {
+    "sectionId": "18-resources",
+    "templateId": "content-default",
+    "confidence": 0.45,
+    "alternatives": [
+      {
+        "templateId": "navigation-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "hero-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      },
+      {
+        "templateId": "features-default",
+        "score": 0,
+        "reasons": [
+          "Alternative template"
+        ],
+        "warnings": []
+      }
+    ],
+    "warnings": [
+      "The template was selected using a generic fallback."
+    ]
+  }
+]

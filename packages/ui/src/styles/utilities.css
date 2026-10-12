@@ -1,0 +1,76 @@
+.generated-landing-page {
+  color: var(--bdmg-color-text);
+  background: var(--bdmg-color-background);
+  font-family: var(--bdmg-font-body);
+}
+
+.landing-section {
+  padding: var(--bdmg-space-12) var(--bdmg-space-6);
+}
+
+.landing-section__inner {
+  width: 100%;
+  max-width: var(--bdmg-content-width);
+  margin-inline: auto;
+}
+
+.landing-section__title {
+  margin: 0 0 var(--bdmg-space-6);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.landing-section p,
+.landing-section li {
+  line-height: 1.7;
+}
+
+.landing-section ul,
+.landing-section ol {
+  padding-inline-start: var(--bdmg-space-6);
+}
+
+.landing-section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--bdmg-radius-md);
+}
+
+.landing-section--hero {
+  padding-block: var(--bdmg-space-16);
+  background: var(--bdmg-color-surface);
+}
+
+.landing-section--pricing,
+.landing-section--features,
+.landing-section--testimonials {
+  background: var(--bdmg-color-background);
+}
+
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-scroll td {
+  padding: var(--bdmg-space-3);
+  border: 1px solid var(--bdmg-color-border);
+  text-align: left;
+}
+
+.missing-image {
+  color: var(--bdmg-color-muted);
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .landing-section {
+    padding: var(--bdmg-space-8) var(--bdmg-space-4);
+  }
+}

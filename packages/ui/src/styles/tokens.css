@@ -1,0 +1,24 @@
+:root {
+  --bdmg-font-body: Arial, Helvetica, sans-serif;
+  --bdmg-color-text: #172033;
+  --bdmg-color-muted: #64748b;
+  --bdmg-color-background: #ffffff;
+  --bdmg-color-surface: #f8fafc;
+  --bdmg-color-border: #e2e8f0;
+  --bdmg-color-primary: #2563eb;
+
+  --bdmg-space-1: 0.25rem;
+  --bdmg-space-2: 0.5rem;
+  --bdmg-space-3: 0.75rem;
+  --bdmg-space-4: 1rem;
+  --bdmg-space-6: 1.5rem;
+  --bdmg-space-8: 2rem;
+  --bdmg-space-12: 3rem;
+  --bdmg-space-16: 4rem;
+
+  --bdmg-radius-sm: 0.375rem;
+  --bdmg-radius-md: 0.75rem;
+  --bdmg-radius-lg: 1rem;
+
+  --bdmg-content-width: 72rem;
+}

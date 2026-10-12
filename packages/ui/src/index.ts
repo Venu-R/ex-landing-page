@@ -1,0 +1,1 @@
+export { GeneratedLandingPage } from "./GeneratedLandingPage.js";
