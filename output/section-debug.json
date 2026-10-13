@@ -1,0 +1,489 @@
+[
+  {
+    "id": "01-general-content",
+    "title": "General content",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Example Landing Page — Content Source"
+      },
+      {
+        "type": "paragraph",
+        "text": "BDMG Blueprint workflow test input"
+      },
+      {
+        "type": "paragraph",
+        "text": "Purpose: preserve the visible landing-page copy in an editable document. The Figma REST response remains the source of truth for geometry, typography, colors, imagery, icons, and layout."
+      }
+    ]
+  },
+  {
+    "id": "02-source-and-overview",
+    "title": "Source and overview",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Source and overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Design: Example Landing Page"
+      },
+      {
+        "type": "paragraph",
+        "text": "Figma: https://www.figma.com/design/FJzE72i3SqY8FxlWrJVfHD/Example-Landing-Page?node-id=0-1"
+      },
+      {
+        "type": "paragraph",
+        "text": "Page purpose: explain Framer site plans, team-editor pricing, feature differences, and business/enterprise offerings."
+      }
+    ]
+  },
+  {
+    "id": "03-1-navigation-and-hero",
+    "title": "1. Navigation and hero",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "1. Navigation and hero"
+      },
+      {
+        "type": "paragraph",
+        "text": "Navigation: Why Framer | Templates | Community | Resources | Awards | Business | Pricing | Publish your site for free"
+      }
+    ]
+  },
+  {
+    "id": "04-hero",
+    "title": "Hero",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Hero"
+      },
+      {
+        "type": "paragraph",
+        "text": "Site Pricing"
+      },
+      {
+        "type": "paragraph",
+        "text": "Start building your site for free. Upgrade to unlock more features."
+      },
+      {
+        "type": "paragraph",
+        "text": "Primary CTA: Try for Free"
+      }
+    ]
+  },
+  {
+    "id": "05-2-site-pricing",
+    "title": "2. Site pricing",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "2. Site pricing"
+      },
+      {
+        "type": "paragraph",
+        "text": "Billing cadence: YEARLY. Prices are per month, per site."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Plan",
+            "Price",
+            "Description",
+            "Features"
+          ],
+          [
+            "Free",
+            "$0\nPer month\nPER SITE",
+            "For hobby projects",
+            "Design Editor\nFramer banner"
+          ],
+          [
+            "Mini",
+            "$5\nPer month\nPER SITE",
+            "For landing pages",
+            "Home + 404 page\nCustom domain\n1,000 visitors/mo"
+          ],
+          [
+            "Basic",
+            "$15\nPer month\nPER SITE",
+            "For personal sites",
+            "Unlimited pages\nPassword protect\n1 CMS collection\n10,000 visitors/mo"
+          ],
+          [
+            "Pro",
+            "$25\nPer month\nPER SITE",
+            "For bigger sites",
+            "Analytics\nStaging\nRedirects\n10 CMS collections\n100,000 visitors/mo"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Each site plan includes a “Get Plan” CTA."
+      }
+    ]
+  },
+  {
+    "id": "06-3-team-pricing",
+    "title": "3. Team pricing",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "3. Team pricing"
+      },
+      {
+        "type": "paragraph",
+        "text": "Team Pricing"
+      },
+      {
+        "type": "paragraph",
+        "text": "Optionally add editors to collaborate on paid sites."
+      },
+      {
+        "type": "paragraph",
+        "text": "Team workspace benefits:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Collaborate on paid sites",
+          "Custom code across team projects",
+          "7 day version history",
+          "Unlimited viewers"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Team editors: $20 per month, per editor (YEARLY). Editors — first one is free!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Calculator examples: Mini site — $5/mo; Basic site — $15/mo; Pro site — $25/mo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Actions: Add editors | Manage team | Cost calculator"
+      }
+    ]
+  },
+  {
+    "id": "07-4-business-plan",
+    "title": "4. Business plan",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "4. Business plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Business"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you need custom limits and app features."
+      }
+    ]
+  },
+  {
+    "id": "08-services",
+    "title": "Services",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Services"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Onboarding",
+          "Launch support",
+          "SEO & performance audit",
+          "Slack channel with Framer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "09-infrastructure",
+    "title": "Infrastructure",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Infrastructure"
+      },
+      {
+        "type": "list",
+        "items": [
+          "No hard hosting limits",
+          "Reverse proxy support",
+          "Premium Infrastructure",
+          "Custom application limits"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10-legal-security",
+    "title": "Legal & security",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Legal & security"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Business contract",
+          "Centralized yearly billing",
+          "Confidentiality agreement",
+          "Advanced Security"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "CTA: Learn more"
+      }
+    ]
+  },
+  {
+    "id": "11-5-feature-comparison",
+    "title": "5. Feature comparison",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "5. Feature comparison"
+      },
+      {
+        "type": "paragraph",
+        "text": "Plan columns: Free, Mini, Basic, Pro, Business. The values below are readable text extracted from the design; checkmarks and other icon states must be mapped from Figma nodes rather than guessed."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Feature",
+            "Free",
+            "Mini",
+            "Basic",
+            "Pro",
+            "Business"
+          ],
+          [
+            "Hosting — Bandwidth",
+            "1 GB",
+            "1 GB",
+            "10 GB",
+            "100 GB",
+            "Custom"
+          ],
+          [
+            "Hosting — Visitors",
+            "1,000",
+            "1,000",
+            "10,000",
+            "100,000",
+            "Custom"
+          ],
+          [
+            "Hosting — CDN",
+            "Check state in Figma",
+            "Basic",
+            "Check state in Figma",
+            "Global",
+            "Premium"
+          ],
+          [
+            "Publishing — Web pages",
+            "Check state in Figma",
+            "Home + 404",
+            "Check state in Figma",
+            "Check state in Figma",
+            "Check state in Figma"
+          ],
+          [
+            "Features — CMS items",
+            "100",
+            "100",
+            "1,000",
+            "10,000",
+            "Custom"
+          ],
+          [
+            "Features — CMS collections",
+            "1",
+            "1",
+            "1",
+            "10",
+            "Custom"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12-6-site-plans-summary",
+    "title": "6. Site plans summary",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "6. Site plans summary"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Plan",
+            "Price"
+          ],
+          [
+            "Free",
+            "$0/mo"
+          ],
+          [
+            "Mini",
+            "$5/mo"
+          ],
+          [
+            "Basic",
+            "$15/mo"
+          ],
+          [
+            "Pro",
+            "$25/mo"
+          ],
+          [
+            "Business",
+            "Custom"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13-7-faq",
+    "title": "7. FAQ",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "7. FAQ"
+      },
+      {
+        "type": "list",
+        "items": [
+          "How are additional editors billed?",
+          "Can I trial Framer before paying?",
+          "What payment methods do you offer?",
+          "Can I cancel my site plan at any time?",
+          "How can I manage my invoices and charges?",
+          "What is your refund policy?",
+          "How are paid plans billed when moving from a Prototyping to a Site plan?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "FAQ answers are not present as readable copy in the supplied Figma text response. Do not invent them."
+      }
+    ]
+  },
+  {
+    "id": "14-8-footer",
+    "title": "8. Footer",
+    "level": 1,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "8. Footer"
+      }
+    ]
+  },
+  {
+    "id": "15-company",
+    "title": "Company",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Company"
+      },
+      {
+        "type": "paragraph",
+        "text": "About | Careers | Cookies | Security | Privacy | Abuse | Charges | Terms"
+      }
+    ]
+  },
+  {
+    "id": "16-product",
+    "title": "Product",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Product"
+      },
+      {
+        "type": "paragraph",
+        "text": "Learn | Plugins | Awards | Agencies | Startups | Freelancers | Pricing"
+      }
+    ]
+  },
+  {
+    "id": "17-templates",
+    "title": "Templates",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Templates"
+      },
+      {
+        "type": "paragraph",
+        "text": "New | Free | Agency | Blog | Brand Guidelines | Changelog | Landing Page | Personal | Photography | Podcast | Portfolio | Splash Page | Startup | Web3 | 3D"
+      }
+    ]
+  },
+  {
+    "id": "18-resources",
+    "title": "Resources",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Resources"
+      },
+      {
+        "type": "paragraph",
+        "text": "Desktop Apps | Figma Plugin | Partner program | Webflow vs. Framer | Support | Updates | Community | Business | Contact"
+      },
+      {
+        "type": "paragraph",
+        "text": "Social links: Twitter | YouTube | Instagram | Dribbble"
+      },
+      {
+        "type": "paragraph",
+        "text": "Framer B.V. © 2023"
+      },
+      {
+        "type": "paragraph",
+        "text": "Other visible labels: Framer | Why Framer | Templates | Community | Resources | Awards | Business | Pricing | Publish your site for free"
+      }
+    ]
+  }
+]

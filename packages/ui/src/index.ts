@@ -6,3 +6,4 @@ export {
   type SectionTemplateCategory
 } from "./templates";
 export { createDesignTokenStyles } from "./design-tokens";
+export { DesignTreeRenderer } from "./DesignTreeRenderer";
