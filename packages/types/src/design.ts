@@ -92,20 +92,34 @@ export interface DesignTokens {
   effects: DesignToken[];
 }
 
-export interface DesignAsset {
+export interface DesignAssetUsage {
   nodeId: string | null;
-  name: string;
-  type: string;
+  nodeName: string;
+  breakpoint: "desktop" | "tablet" | "mobile";
+  role: "background" | "content" | "icon";
+  sectionId: string | null;
   bounds: Bounds | null;
-  imageFills: unknown[];
-  exportSettings: unknown[];
+  contextText: string | null;
+}
+
+/** One image or icon the design needs. `publicPath` is set once the file was delivered. */
+export interface DesignAsset {
+  id: string;
+  kind: "image" | "icon";
+  /** File name (without extension) the content team should deliver. */
+  expectedName: string;
+  acceptedExtensions: string[];
+  width: number;
+  height: number;
   imageRef: string | null;
-  resolution:
-    | "unresolved-reference"
-    | "export-required"
-    | "vector-data";
-  portableUrl: string | null;
-  vectorNetwork?: unknown;
-  paths?: unknown;
-  [key: string]: unknown;
+  usages: DesignAssetUsage[];
+  status: "provided" | "pending";
+  publicPath: string | null;
+  figmaExport: {
+    fileKey: string | null;
+    nodeIds: string[];
+    format: "svg" | "png";
+    note: string;
+  };
+  aliases: string[];
 }

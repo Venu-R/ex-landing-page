@@ -1,0 +1,44 @@
+/* Structural CSS for generated pages (design-specific styles live in the app's design.css). */
+.bdmg-page {
+  display: block;
+  width: 100%;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.bdmg-page *,
+.bdmg-page *::before,
+.bdmg-page *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bdmg-page a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bdmg-viewport {
+  width: 100%;
+}
+
+.bdmg-stage {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: clip;
+}
+
+.bdmg-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.bdmg-canvas {
+  position: relative;
+  margin: 0 auto;
+}

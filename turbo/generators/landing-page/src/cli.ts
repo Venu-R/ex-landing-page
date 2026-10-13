@@ -1,138 +1,33 @@
-import { readFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
-import { z } from "zod";
 
-import type {
-  GenerationOptions,
-  LandingPageBlueprint
-} from "@bdmg/types";
-
-import { generatePage } from "./page-generator.js";
-
-const CliBlueprintSchema = z.object({
-  schemaVersion: z.string(),
-  project: z.string(),
-  framework: z.string(),
-  sections: z.array(
-    z.object({
-      id: z.string(),
-      title: z.string(),
-      order: z.number(),
-      content: z.array(z.object({
-        id: z.string(),
-        type: z.enum([
-          "heading",
-          "paragraph",
-          "list",
-          "table",
-          "image"
-        ]),
-        sourceBlockIndex: z.number()
-      }).passthrough()),
-      mappingRequired: z.boolean(),
-      designNodeId: z.string().nullable()
-    }).passthrough()
-  ),
-  validation: z.object({
-    status: z.enum(["valid", "needs-review"]),
-    errors: z.array(z.string()),
-    warnings: z.array(z.string())
-  }).passthrough()
-}).passthrough();
-
-function getArgument(name: string): string | undefined {
-  const index = process.argv.indexOf(name);
-
-  if (index === -1) {
-    return undefined;
-  }
-
-  return process.argv[index + 1];
-}
+import { parseArgs } from "./config.js";
+import { generateLandingPage } from "./page-generator.js";
+import { prepareGeneration } from "./processors/prepare-generation.js";
 
 async function main(): Promise<void> {
-  const generatorDir = path.dirname(fileURLToPath(import.meta.url));
-const repoRoot = path.resolve(generatorDir, "../../../..");
+  const options = parseArgs(process.argv.slice(2));
+  const { blueprint, warnings } = await prepareGeneration(options);
+  for (const w of warnings) console.warn(`blueprint warning: ${w}`);
 
-const blueprintPath = path.resolve(
-  repoRoot,
-  getArgument("--blueprint") ??
-    "output/landing-page-blueprint.json"
-);
-
-const outputDir = path.resolve(
-  repoRoot,
-  getArgument("--output") ??
-    "generated-landing-page"
-);
-
-  const strictMappings = process.argv.includes("--strict-mappings");
-
-  const raw = await readFile(blueprintPath, "utf8");
-  const parsed: unknown = JSON.parse(raw);
-
-  const result = CliBlueprintSchema.safeParse(parsed);
-
-  if (!result.success) {
-    console.error("The supplied blueprint is invalid.");
-    console.error(z.prettifyError(result.error));
-    process.exitCode = 1;
-    return;
+  const { plan, assets } = await generateLandingPage(blueprint, options);
+  const r = plan.report;
+  console.log(`Generated "${plan.project}" -> ${options.outputDir}`);
+  console.log(`  viewports: ${plan.viewports.map((v) => `${v.breakpoint} ${v.designWidth}px (${v.bands.length} bands)`).join(", ")}`);
+  console.log(`  nodes: ${r.nodes} rendered, ${r.skippedNodes} skipped; ${r.textOverrides} text(s) taken from the DOCX`);
+  console.log(`  fonts: ${plan.fonts.map((f) => `${f.family} ${f.weights.join("/")}`).join(", ") || "none"}`);
+  console.log(`  assets: ${assets.copied} copied, ${plan.assets.filter((a) => a.status === "pending").length} pending`);
+  if (r.warnings.length) {
+    console.warn(`\n${r.warnings.length} warning(s):`);
+    for (const w of r.warnings.slice(0, 40)) console.warn(`  [${w.code}] ${w.message}`);
+    if (r.warnings.length > 40) console.warn(`  ... see ${path.join(options.outputDir, "src/data/generation-report.json")}`);
   }
-
-  const blueprint = parsed as LandingPageBlueprint;
-
-  if (blueprint.validation.status === "needs-review") {
-    console.warn(
-      "Warning: the blueprint has validation warnings or errors."
-    );
-
-    for (const warning of blueprint.validation.warnings) {
-      console.warn(`- ${warning}`);
-    }
-
-    for (const error of blueprint.validation.errors) {
-      console.warn(`- ${error}`);
-    }
-  }
-
-  if (strictMappings) {
-    const unmapped = blueprint.sections.filter(
-      section => section.mappingRequired && !section.designNodeId
-    );
-
-    if (unmapped.length > 0) {
-      console.error(
-        `Strict mapping check failed: ${unmapped.length} section(s) require design mapping.`
-      );
-      process.exitCode = 1;
-      return;
-    }
-  }
-
-  const options: GenerationOptions = {
-    blueprintPath,
-    outputDir,
-    projectName: blueprint.project,
-    strictMappings
-  };
-
-  await generatePage(blueprint, options);
-
-  console.log("Landing page generated successfully.");
-  console.log(`Blueprint: ${blueprintPath}`);
-  console.log(`Output:    ${outputDir}`);
 }
 
-const invokedPath = process.argv[1];
-
-if (
-  invokedPath &&
-  import.meta.url === pathToFileURL(path.resolve(invokedPath)).href
-) {
-  main().catch(error => {
-    console.error("Landing page generation failed:", error);
+const invoked = process.argv[1];
+if (invoked && import.meta.url === pathToFileURL(path.resolve(invoked)).href) {
+  main().catch((error) => {
+    console.error("Landing page generation failed:", error instanceof Error ? error.message : error);
     process.exitCode = 1;
   });
 }

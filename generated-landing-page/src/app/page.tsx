@@ -1,13 +1,7 @@
-import blueprint from "../data/landing-page-blueprint.json";
-import selections from "../data/template-selections.json";
-import { GeneratedLandingPage } from "@bdmg/ui";
-import type { LandingPageBlueprint, TemplateSelection } from "@bdmg/types";
+import plan from "../data/page-plan.json";
+import { FigmaPage } from "@bdmg/ui";
+import type { PagePlan } from "@bdmg/types";
 
-export default function GeneratedPage() {
-  return (
-    <GeneratedLandingPage
-      blueprint={blueprint as LandingPageBlueprint}
-      selections={selections as TemplateSelection[]}
-    />
-  );
+export default function Page() {
+  return <FigmaPage plan={plan as unknown as PagePlan} />;
 }
