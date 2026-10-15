@@ -5,13 +5,14 @@
   "private": true,
   "packageManager": "pnpm@10.0.0",
   "scripts": {
-    "parse:docx": "tsx src/parsers/parse-docx.ts",
-    "normalize:figma": "tsx src/normalizers/normalize-figma.ts",
-    "build:blueprint": "tsx src/blueprint/build-blueprint.ts",
-    "pipeline": "pnpm parse:docx && pnpm normalize:figma && pnpm build:blueprint",
+    "bdmg:agent": "pnpm --filter @bdmg/landing-page-agent start",
+    "bdmg:generate": "pnpm --filter @bdmg/landing-page-agent generate",
+    "bdmg:parse": "pnpm --filter @bdmg/landing-page-agent parse",
+    "bdmg:qa": "pnpm --filter @bdmg/landing-page-agent qa",
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

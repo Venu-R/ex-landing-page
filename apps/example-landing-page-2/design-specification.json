@@ -1,0 +1,170 @@
+{
+  "source": "figma-mcp",
+  "fileKey": "FJzE72i3SqY8FxlWrJVfHD",
+  "rootNodeId": "0:1",
+  "sections": [
+    {
+      "contentSectionId": "00-overview",
+      "figmaNodeId": null,
+      "name": "00-overview",
+      "order": 0,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "02-source-and-overview",
+      "figmaNodeId": null,
+      "name": "02-source-and-overview",
+      "order": 1,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "03-navigation-and-hero",
+      "figmaNodeId": null,
+      "name": "03-navigation-and-hero",
+      "order": 2,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "04-site-pricing",
+      "figmaNodeId": null,
+      "name": "04-site-pricing",
+      "order": 3,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "05-team-pricing",
+      "figmaNodeId": null,
+      "name": "05-team-pricing",
+      "order": 4,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "06-business-plan",
+      "figmaNodeId": null,
+      "name": "06-business-plan",
+      "order": 5,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "07-feature-comparison",
+      "figmaNodeId": null,
+      "name": "07-feature-comparison",
+      "order": 6,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "08-site-plans-summary",
+      "figmaNodeId": null,
+      "name": "08-site-plans-summary",
+      "order": 7,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "09-faq",
+      "figmaNodeId": null,
+      "name": "09-faq",
+      "order": 8,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "10-footer",
+      "figmaNodeId": null,
+      "name": "10-footer",
+      "order": 9,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    }
+  ],
+  "responsiveFrames": [],
+  "unresolvedIssues": [
+    "No matching Figma section was identified for \"Overview\".",
+    "No matching Figma section was identified for \"Source and overview\".",
+    "No matching Figma section was identified for \"Navigation and hero\".",
+    "No matching Figma section was identified for \"Site pricing\".",
+    "No matching Figma section was identified for \"Team pricing\".",
+    "No matching Figma section was identified for \"Business plan\".",
+    "No matching Figma section was identified for \"Feature comparison\".",
+    "No matching Figma section was identified for \"Site plans summary\".",
+    "No matching Figma section was identified for \"FAQ\".",
+    "No matching Figma section was identified for \"Footer\"."
+  ]
+}

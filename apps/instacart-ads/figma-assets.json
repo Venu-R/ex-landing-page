@@ -1,0 +1,274 @@
+[
+  {
+    "name": "hero-food.png",
+    "url": "https://www.figma.com/api/mcp/asset/58a654a1-9b2c-44d1-835f-68590c56137d.png",
+    "type": "image",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/hero-food.png"
+  },
+  {
+    "name": "hero-food-detail.png",
+    "url": "https://www.figma.com/api/mcp/asset/b980ffc9-ffb7-4e8b-8599-d0719cab1693.png",
+    "type": "image",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/hero-food-detail.png"
+  },
+  {
+    "name": "marketplace-illustration.png",
+    "url": "https://www.figma.com/api/mcp/asset/b1caecac-a3bf-4f63-bcb8-9d84c38d4497.png",
+    "type": "image",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/marketplace-illustration.png"
+  },
+  {
+    "name": "product-card.png",
+    "url": "https://www.figma.com/api/mcp/asset/84d66eb1-0b24-4600-9968-b027ad1ffe59.png",
+    "type": "image",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/product-card.png"
+  },
+  {
+    "name": "budget-chart.png",
+    "url": "https://www.figma.com/api/mcp/asset/e4be1087-9b75-4c5c-940d-cede71e10a46.png",
+    "type": "image",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/budget-chart.png"
+  },
+  {
+    "name": "performance-chart.png",
+    "url": "https://www.figma.com/api/mcp/asset/e672a896-3635-4a62-a9f9-8dab15574d17.png",
+    "type": "image",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/performance-chart.png"
+  },
+  {
+    "name": "brand-partner-icons.png",
+    "url": "https://www.figma.com/api/mcp/asset/599de037-0455-4ca1-82bf-9da0a3244e47.png",
+    "type": "image",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/brand-partner-icons.png"
+  },
+  {
+    "name": "instacart-logo.svg",
+    "url": "https://www.figma.com/api/mcp/asset/7a449c43-da40-4bfd-932f-a9a94a08e7bf.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/instacart-logo.svg"
+  },
+  {
+    "name": "ads-logo.svg",
+    "url": "https://www.figma.com/api/mcp/asset/15789e54-a28b-451e-9d5a-cdea843d03ce.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/ads-logo.svg"
+  },
+  {
+    "name": "icon-1.svg",
+    "url": "https://www.figma.com/api/mcp/asset/5993b86c-0cbc-4451-9bc2-3695b81051d2.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-1.svg"
+  },
+  {
+    "name": "icon-2.svg",
+    "url": "https://www.figma.com/api/mcp/asset/79f83618-7da8-493a-ab77-404dff9601c0.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-2.svg"
+  },
+  {
+    "name": "icon-3.svg",
+    "url": "https://www.figma.com/api/mcp/asset/c1438e1a-1100-4f34-a8e9-149fe38e31fa.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-3.svg"
+  },
+  {
+    "name": "icon-4.svg",
+    "url": "https://www.figma.com/api/mcp/asset/6b691cd9-af0d-4e1e-b473-01606c7a11a5.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-4.svg"
+  },
+  {
+    "name": "icon-5.svg",
+    "url": "https://www.figma.com/api/mcp/asset/b5476c5b-928e-435a-95bb-e3c18469dbfe.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-5.svg"
+  },
+  {
+    "name": "icon-6.svg",
+    "url": "https://www.figma.com/api/mcp/asset/4bca2013-4d9d-4a96-b341-313c1e222af8.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-6.svg"
+  },
+  {
+    "name": "icon-7.svg",
+    "url": "https://www.figma.com/api/mcp/asset/d294e1aa-79fd-4a7c-8b62-500687039f5f.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-7.svg"
+  },
+  {
+    "name": "icon-8.svg",
+    "url": "https://www.figma.com/api/mcp/asset/da1f5d5a-be88-4297-ac1f-23281d4b734d.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-8.svg"
+  },
+  {
+    "name": "icon-9.svg",
+    "url": "https://www.figma.com/api/mcp/asset/360a34cc-2dae-49e8-96f7-090012747170.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-9.svg"
+  },
+  {
+    "name": "icon-10.svg",
+    "url": "https://www.figma.com/api/mcp/asset/1b8acbbd-6522-4d28-8b76-a107db0aa415.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-10.svg"
+  },
+  {
+    "name": "icon-11.svg",
+    "url": "https://www.figma.com/api/mcp/asset/55c52e8e-5747-47a4-8c30-78d69dd0a094.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-11.svg"
+  },
+  {
+    "name": "icon-12.svg",
+    "url": "https://www.figma.com/api/mcp/asset/38aa65a2-de1a-4465-ae02-c5f9330f13b3.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-12.svg"
+  },
+  {
+    "name": "icon-13.svg",
+    "url": "https://www.figma.com/api/mcp/asset/4e37e98d-d867-4003-a9d1-3add4828e675.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-13.svg"
+  },
+  {
+    "name": "icon-14.svg",
+    "url": "https://www.figma.com/api/mcp/asset/9052996c-a1a1-4578-b66b-2378de14a2e7.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-14.svg"
+  },
+  {
+    "name": "icon-15.svg",
+    "url": "https://www.figma.com/api/mcp/asset/fcd7ae0a-c528-4803-84e5-00d341c367a4.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-15.svg"
+  },
+  {
+    "name": "icon-16.svg",
+    "url": "https://www.figma.com/api/mcp/asset/06ddbf7b-7c1b-4a5f-8431-1664cfad7b18.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-16.svg"
+  },
+  {
+    "name": "icon-17.svg",
+    "url": "https://www.figma.com/api/mcp/asset/ef57d2d7-bf87-434d-9d50-cfa66121ea98.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-17.svg"
+  },
+  {
+    "name": "icon-18.svg",
+    "url": "https://www.figma.com/api/mcp/asset/b613d2fc-396d-43db-a1a4-b47007c35a50.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-18.svg"
+  },
+  {
+    "name": "icon-19.svg",
+    "url": "https://www.figma.com/api/mcp/asset/0ef85f22-f764-4f18-ac08-0f90818505ac.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-19.svg"
+  },
+  {
+    "name": "icon-20.svg",
+    "url": "https://www.figma.com/api/mcp/asset/b7654d18-176c-4b57-be2f-b8909d89b635.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-20.svg"
+  },
+  {
+    "name": "icon-21.svg",
+    "url": "https://www.figma.com/api/mcp/asset/30ff5273-6605-4dc1-8581-7f8f8510a895.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-21.svg"
+  },
+  {
+    "name": "icon-22.svg",
+    "url": "https://www.figma.com/api/mcp/asset/df9ee999-15c4-417a-8de2-2f168ed0b7fa.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/icon-22.svg"
+  },
+  {
+    "name": "footer-icon-1.svg",
+    "url": "https://www.figma.com/api/mcp/asset/0188a660-6cfc-4ebb-9e45-ff0959910e88.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/footer-icon-1.svg"
+  },
+  {
+    "name": "footer-icon-2.svg",
+    "url": "https://www.figma.com/api/mcp/asset/fb542835-b793-4879-8abb-82ca9ccf5262.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/footer-icon-2.svg"
+  },
+  {
+    "name": "footer-icon-3.svg",
+    "url": "https://www.figma.com/api/mcp/asset/5b4761d6-bbfd-40a0-9848-09beb7770703.svg",
+    "type": "svg",
+    "section": "Instacart Ads landing page",
+    "status": "localized",
+    "localPath": "public/assets/footer-icon-3.svg"
+  }
+]

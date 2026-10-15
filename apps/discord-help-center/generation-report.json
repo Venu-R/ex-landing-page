@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-10-14T20:53:23.000Z",
+  "appName": "discord-help-center",
+  "contentFile": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\discord\\content.docx",
+  "figmaUrl": "saved-json://fixtures/discord/figma-response.json",
+  "referenceImages": [
+    {
+      "name": "desktop",
+      "path": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\discord\\Discord.png",
+      "status": "passed"
+    }
+  ],
+  "appDir": "D:\\Internship\\BigDrops\\Example landing page\\apps\\discord-help-center",
+  "checks": [
+    {
+      "name": "DOCX content model",
+      "status": "passed",
+      "details": "54 blocks parsed from the approved Discord content document."
+    },
+    {
+      "name": "Figma saved JSON evidence",
+      "status": "passed",
+      "details": "Root frame and layout structure read from fixtures/discord/figma-response.json; live MCP inspection was unavailable because no design URL was supplied."
+    },
+    {
+      "name": "Figma asset localization",
+      "status": "unverified",
+      "details": "Saved JSON contains hashed image references but no reusable local asset files or export URLs."
+    },
+    {
+      "name": "content/design reconciliation",
+      "status": "passed",
+      "details": "Header, hero, welcome, ten category cards, two support cards, help widget, and dark footer were reconciled from DOCX and PNG evidence."
+    },
+    {
+      "name": "browser navigation and links",
+      "status": "passed",
+      "details": "25 links inspected; 0 missing href or in-page targets."
+    },
+    {
+      "name": "images",
+      "status": "passed",
+      "details": "0 images inspected; 0 missing alt or failed loads."
+    },
+    {
+      "name": "console errors",
+      "status": "passed",
+      "details": "No browser console errors."
+    },
+    {
+      "name": "accessibility",
+      "status": "passed",
+      "details": "No axe violations."
+    },
+    {
+      "name": "visual comparison (desktop)",
+      "status": "failed",
+      "details": "failed: 22.25% pixels differ (threshold 1.00%)"
+    },
+    {
+      "name": "visual comparison (mobile)",
+      "status": "unverified",
+      "details": "Reference screenshot missing: D:\\Internship\\BigDrops\\Example landing page\\apps\\discord-help-center\\qa\\reference\\mobile.png. Figma MCP must provide it."
+    },
+    {
+      "name": "visual repair workflow",
+      "status": "unverified",
+      "details": "1 bounded screenshot pass(es) configured; code repair remains an agent action between passes."
+    },
+    {
+      "name": "Lighthouse",
+      "status": "skipped",
+      "details": "Pass --lighthouse to run the local Lighthouse audit."
+    }
+  ],
+  "warnings": [
+    "Live Figma MCP inspection was not performed because the prompt did not include a node-specific Figma URL.",
+    "Card and hero illustrations are CSS approximations because the saved JSON did not provide downloadable image assets.",
+    "Responsive behavior is inferred from the desktop reference; no mobile or tablet reference was supplied."
+  ],
+  "nextSteps": [
+    "Review desktop comparison and diff artifacts after browser QA.",
+    "Provide additional viewport references or a node-specific Figma URL for exact responsive and asset validation.",
+    "Review browser QA artifacts in D:\\Internship\\BigDrops\\Example landing page\\apps\\discord-help-center\\qa\\output."
+  ],
+  "evidence": {
+    "figmaMcp": false,
+    "responsiveFrames": 0,
+    "assets": 0,
+    "specification": "Measured desktop composition from Discord.png; section structure from saved Figma JSON and DOCX; responsive values are inferred."
+  },
+  "visualQa": {
+    "references": [
+      {
+        "viewport": "desktop",
+        "referencePath": "D:\\Internship\\BigDrops\\Example landing page\\apps\\discord-help-center\\qa\\reference\\desktop.png",
+        "comparison": "failed",
+        "artifactPath": "D:\\Internship\\BigDrops\\Example landing page\\apps\\discord-help-center\\qa\\output\\desktop-diff.png"
+      },
+      {
+        "viewport": "mobile",
+        "referencePath": null,
+        "comparison": "unverified"
+      }
+    ],
+    "repairIterationsRequested": 1,
+    "verifiedRepairIterations": 0
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "filename": "content.docx",
+    "parser": "mammoth",
+    "warnings": [
+      {
+        "type": "warning",
+        "message": "Unrecognised paragraph style: 'Title' (Style ID: Title)"
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Discord Help Center — Landing Page Content",
+      "html": "<p>Discord Help Center — Landing Page Content</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Content extracted from the supplied Discord Help Center design screenshot.",
+      "html": "<p><em>Content extracted from the supplied Discord Help Center design screenshot.</em></p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "1. Header",
+      "html": "<h1>1. Header</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brand: Discord",
+      "html": "<p>Brand: Discord</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Navigation links:",
+      "html": "<p>Navigation links:</p>",
+      "links": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Feedback",
+        "English (US)",
+        "Submit a request",
+        "Sign in"
+      ],
+      "html": "<ul><li>Feedback</li><li>English (US)</li><li>Submit a request</li><li>Sign in</li></ul>"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "2. Hero Section",
+      "html": "<h1>2. Hero Section</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Main heading: Help Center",
+      "html": "<p>Main heading: Help Center</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Search placeholder: Search",
+      "html": "<p>Search placeholder: Search</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Visual direction: Blue/purple banner with playful illustrated characters, clouds, and decorative stars.",
+      "html": "<p>Visual direction: Blue/purple banner with playful illustrated characters, clouds, and decorative stars.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "3. Welcome / Intro Section",
+      "html": "<h1>3. Welcome / Intro Section</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heading: Need help? We've got your back.",
+      "html": "<p>Heading: Need help? We've got your back.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Body copy: From account settings to permissions, find help for everything Discord",
+      "html": "<p>Body copy: From account settings to permissions, find help for everything Discord</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Body copy: If you're new to Discord and looking for tips, check out our Beginner's Guide",
+      "html": "<p>Body copy: If you're new to Discord and looking for tips, check out our Beginner's Guide</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Link text: Beginner's Guide",
+      "html": "<p>Link text: Beginner's Guide</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "4. Help Categories",
+      "html": "<h1>4. Help Categories</h1>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Announcements",
+      "html": "<h2>Announcements</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "We've got our ear to the ground. Here's what you need to know.",
+      "html": "<p>We've got our ear to the ground. Here's what you need to know.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Discord's Interface",
+      "html": "<h2>Discord's Interface</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "WHAT DOES THIS BUTTON DO?!11",
+      "html": "<p>WHAT DOES THIS BUTTON DO?!11</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Account Settings",
+      "html": "<h2>Account Settings</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "You're a special snowflake and so is your account.",
+      "html": "<p>You're a special snowflake and so is your account.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Getting Started",
+      "html": "<h2>Getting Started</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Start off on the right foot! Not the left one!",
+      "html": "<p>Start off on the right foot! Not the left one!</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Server Setup",
+      "html": "<h2>Server Setup</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Almost as exciting as interior decorating.",
+      "html": "<p>Almost as exciting as interior decorating.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Community Programs",
+      "html": "<h2>Community Programs</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bringing people together from all around the globe (and occasionally Mars)",
+      "html": "<p>Bringing people together from all around the globe (and occasionally Mars)</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Perks and Subscriptions",
+      "html": "<h2>Perks and Subscriptions</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Please don't shop until you drop. Let us help.",
+      "html": "<p>Please don't shop until you drop. Let us help.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Billing",
+      "html": "<h2>Billing</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "That feel when you look at your bank account.",
+      "html": "<p>That feel when you look at your bank account.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trust & Safety",
+      "html": "<h2>Trust &amp; Safety</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keeping things safe & sound for you and your buddies.",
+      "html": "<p>Keeping things safe &amp; sound for you and your buddies.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "F.A.Q.s",
+      "html": "<h2>F.A.Q.s</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "All you can eat self-serve problem solving.",
+      "html": "<p>All you can eat self-serve problem solving.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "5. Other Ways to Find Help",
+      "html": "<h1>5. Other Ways to Find Help</h1>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Developer Support",
+      "html": "<h2>Developer Support</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your home for support with developing bots, apps, & games using our API and SDK!",
+      "html": "<p>Your home for support with developing bots, apps, &amp; games using our API and SDK!</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Twitter",
+      "html": "<h2>Twitter</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Have a quick question? Hit us up on Twitter!",
+      "html": "<p>Have a quick question? Hit us up on Twitter!</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "6. Floating Help Widget",
+      "html": "<h1>6. Floating Help Widget</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Button label: Help",
+      "html": "<p>Button label: Help</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "7. Footer / Download Section",
+      "html": "<h1>7. Footer / Download Section</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Call-to-action button: LEARN MORE",
+      "html": "<p>Call-to-action button: LEARN MORE</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The visual includes a dark footer area with browser/platform icons and a Discord brand mark.",
+      "html": "<p>The visual includes a dark footer area with browser/platform icons and a Discord brand mark.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Footer links:",
+      "html": "<p>Footer links:</p>",
+      "links": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Download",
+        "Help & Support",
+        "Feedback",
+        "Status",
+        "Company",
+        "Jobs — We're hiring",
+        "Blog",
+        "Terms & Privacy"
+      ],
+      "html": "<ul><li>Download</li><li>Help &amp; Support</li><li>Feedback</li><li>Status</li><li>Company</li><li>Jobs — We're hiring</li><li>Blog</li><li>Terms &amp; Privacy</li></ul>"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "8. Design Notes (for implementation)",
+      "html": "<h1>8. Design Notes (for implementation)</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reference image dimensions: 1349 × 2048 pixels.",
+      "html": "<p>Reference image dimensions: 1349 × 2048 pixels.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Primary visual treatment: bright blue/purple hero, white content background, outlined category cards, blue/purple link accents, and a dark footer.",
+      "html": "<p>Primary visual treatment: bright blue/purple hero, white content background, outlined category cards, blue/purple link accents, and a dark footer.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The page shows ten help-category cards arranged in a multi-column grid, followed by two centered support cards.",
+      "html": "<p>The page shows ten help-category cards arranged in a multi-column grid, followed by two centered support cards.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Card illustrations are visible in the reference. Use matching assets from the provided Figma/design evidence where available; do not substitute unrelated imagery.",
+      "html": "<p>Card illustrations are visible in the reference. Use matching assets from the provided Figma/design evidence where available; do not substitute unrelated imagery.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Responsive layout details are not fully specified by this desktop screenshot and should be verified from additional design evidence where available.",
+      "html": "<p>Responsive layout details are not fully specified by this desktop screenshot and should be verified from additional design evidence where available.</p>",
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-10-15T11:30:00.000Z",
+  "appName": "openai-contact-sales",
+  "contentFile": "fixtures/openai/content.docx",
+  "appDir": "apps/openai-contact-sales",
+  "referenceDesktop": "fixtures/openai/OpenAI.png",
+  "figmaUrl": "https://www.figma.com/design/mKvAKFcUYFY82kp33rCX8O/OpenAI?node-id=0-1&t=hRd7IzWFylyR7V68-0",
+  "designEvidence": {
+    "source": "unavailable",
+    "reason": "Figma MCP was rate-limited and the one REST refresh attempt returned HTTP 429. The supplied fallback JSON is for a different file and was not used."
+  },
+  "contentWarnings": [
+    "Dropdown option lists are not fully visible in the reference; the implementation uses clearly labeled representative options.",
+    "The hero image is localized from the supplied PNG using a CSS crop because no usable Figma asset URL was available."
+  ],
+  "checks": [
+    {
+      "name": "browser navigation and links",
+      "status": "passed",
+      "details": "28 links inspected; 0 missing href or in-page targets."
+    },
+    {
+      "name": "images",
+      "status": "passed",
+      "details": "0 images inspected; 0 missing alt or failed loads."
+    },
+    {
+      "name": "console errors",
+      "status": "passed",
+      "details": "No browser console errors."
+    },
+    {
+      "name": "accessibility",
+      "status": "passed",
+      "details": "No axe violations."
+    },
+    {
+      "name": "visual comparison (desktop)",
+      "status": "unverified",
+      "details": "Reference screenshot missing: D:\\Internship\\BigDrops\\Example landing page\\apps\\openai-contact-sales\\qa\\reference\\desktop.png. Figma MCP must provide it."
+    },
+    {
+      "name": "visual comparison (mobile)",
+      "status": "unverified",
+      "details": "Reference screenshot missing: D:\\Internship\\BigDrops\\Example landing page\\apps\\openai-contact-sales\\qa\\reference\\mobile.png. Figma MCP must provide it."
+    },
+    {
+      "name": "visual repair workflow",
+      "status": "skipped",
+      "details": "No screenshot-repair passes requested. Set --repair-iterations from 1 to 3 for bounded iterative QA."
+    },
+    {
+      "name": "Lighthouse",
+      "status": "skipped",
+      "details": "Pass --lighthouse to run the local Lighthouse audit."
+    }
+  ],
+  "warnings": [],
+  "nextSteps": [
+    "Run Figma inspection after the Starter-plan MCP rate limit resets if exact node evidence is required.",
+    "Provide mobile/tablet reference images for responsive visual comparison.",
+    "Review browser QA artifacts in D:\\Internship\\BigDrops\\Example landing page\\apps\\openai-contact-sales\\qa\\output."
+  ],
+  "evidence": {
+    "figmaMcp": false,
+    "responsiveFrames": 0,
+    "assets": 1,
+    "specification": "Verified DOCX and desktop PNG; Figma evidence unavailable."
+  },
+  "qa": {
+    "typecheck": "passed",
+    "build": "passed",
+    "browser": "passed",
+    "visualComparison": "unverified",
+    "lighthouse": "not run"
+  },
+  "visualQa": {
+    "references": [
+      {
+        "viewport": "desktop",
+        "referencePath": null,
+        "comparison": "unverified"
+      },
+      {
+        "viewport": "mobile",
+        "referencePath": null,
+        "comparison": "unverified"
+      }
+    ],
+    "repairIterationsRequested": 0,
+    "verifiedRepairIterations": 0
+  }
+}

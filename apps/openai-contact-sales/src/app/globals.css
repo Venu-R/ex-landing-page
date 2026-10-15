@@ -1,0 +1,96 @@
+:root {
+  --cream: #fff2d4;
+  --blue: #1010f8;
+  --ink: #050505;
+  --line: #737373;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+
+.site-header {
+  align-items: center;
+  background: var(--cream);
+  display: flex;
+  font-size: 13px;
+  gap: 56px;
+  height: 80px;
+  padding: 0 24px;
+}
+.logo { align-items: center; color: var(--blue); display: inline-flex; font-weight: 700; gap: 6px; text-decoration: none; white-space: nowrap; }
+.logo-mark { font-size: 25px; line-height: 1; }
+.site-header nav { display: flex; flex: 1; gap: 32px; }
+.site-header nav a, .search-link { color: var(--blue); }
+.site-header nav a { text-decoration: underline; }
+.site-header nav span { font-size: 11px; margin-left: 5px; text-decoration: none; }
+.search-link { text-decoration: underline; }
+
+.hero {
+  align-items: start;
+  background: var(--cream);
+  display: grid;
+  gap: 48px;
+  grid-template-columns: 1fr 1fr;
+  min-height: 912px;
+  padding: 180px 24px 48px;
+}
+.hero-copy { max-width: 650px; }
+.hero h1 { color: var(--blue); font-size: clamp(56px, 5.1vw, 78px); font-weight: 400; letter-spacing: -3px; line-height: .98; margin: 0 0 26px; }
+.hero p { color: var(--blue); font-size: clamp(20px, 2vw, 28px); line-height: 1.2; margin: 0; max-width: 625px; }
+.hero-image {
+  background-image: url("/assets/OpenAI.png");
+  background-position: -732px -260px;
+  background-repeat: no-repeat;
+  background-size: 1440px auto;
+  height: min(684px, calc(100vw / 2 - 48px));
+  min-height: 400px;
+  margin-top: 0;
+}
+
+.contact-section {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 1fr 1fr;
+  margin: 96px 24px 92px;
+  padding-top: 18px;
+}
+.contact-section h2 { font-family: Georgia, serif; font-size: 44px; font-weight: 400; margin: 0; }
+.contact-section form { display: grid; gap: 24px; max-width: 684px; }
+.contact-section label { display: grid; font-size: 13px; gap: 8px; }
+.contact-section input, .contact-section select, .contact-section textarea { background: #fff; border: 1px solid #555; border-radius: 0; font: inherit; min-height: 47px; padding: 10px; }
+.contact-section textarea { resize: vertical; }
+.contact-section small { color: #555; font-size: 10px; text-decoration: underline; }
+.contact-section button { background: #000; border: 0; color: #fff; cursor: pointer; justify-self: start; padding: 11px 14px; }
+.form-status { font-size: 13px; margin: -8px 0 0; }
+
+.site-footer { background: var(--cream); color: var(--blue); padding: 90px 24px 62px; }
+.footer-top { display: grid; grid-template-columns: 1fr 2fr; min-height: 340px; }
+.footer-columns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.footer-columns div { align-content: start; display: grid; gap: 7px; }
+.footer-columns a, .footer-bottom a { text-decoration: underline; }
+.footer-columns strong { margin-bottom: 4px; }
+.footer-bottom { border-top: 1px solid var(--blue); display: grid; font-size: 13px; gap: 22px; grid-template-columns: 1fr 2fr; padding-top: 12px; }
+.footer-bottom > div:first-child { display: grid; gap: 5px; }
+.social-links { display: flex; gap: 26px; }
+.back-to-top { grid-column: 2; justify-self: start; }
+
+@media (max-width: 760px) {
+  .site-header { gap: 18px; height: 64px; padding: 0 16px; }
+  .site-header nav { display: none; }
+  .search-link { margin-left: auto; }
+  .hero { display: block; min-height: auto; padding: 88px 16px 32px; }
+  .hero h1 { font-size: clamp(50px, 15vw, 72px); }
+  .hero p { font-size: 22px; }
+  .hero-image { background-position: 46% -260px; height: 74vw; margin: 48px -16px 0; min-height: 280px; }
+  .contact-section { display: block; margin: 64px 16px; }
+  .contact-section h2 { margin-bottom: 48px; }
+  .site-footer { padding: 56px 16px 40px; }
+  .footer-top { display: block; min-height: 0; }
+  .footer-columns { gap: 28px 16px; grid-template-columns: repeat(2, 1fr); margin: 72px 0 110px; }
+  .footer-bottom { display: block; }
+  .social-links { flex-wrap: wrap; margin: 28px 0; }
+  .back-to-top { display: block; }
+}

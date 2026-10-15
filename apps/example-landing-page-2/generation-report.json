@@ -1,0 +1,237 @@
+{
+  "generatedAt": "2026-10-15T06:13:31.981Z",
+  "appName": "example-landing-page-2",
+  "contentFile": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\example-landing-page\\content.docx",
+  "figmaUrl": "https://www.figma.com/design/FJzE72i3SqY8FxlWrJVfHD/Example-Landing-Page?node-id=0-1&p=f&t=Th0It17xtZFI41xj-0",
+  "appDir": "D:\\Internship\\BigDrops\\Example landing page\\apps\\example-landing-page-2",
+  "checks": [
+    {
+      "name": "DOCX content model",
+      "status": "passed",
+      "details": "55 blocks, 10 sections, 0 links, 0 assets."
+    },
+    {
+      "name": "Figma API JSON evidence",
+      "status": "passed",
+      "details": "1 sections and 0 responsive frames supplied."
+    },
+    {
+      "name": "Figma asset localization",
+      "status": "passed",
+      "details": "0/0 assets localized."
+    },
+    {
+      "name": "content/design reconciliation",
+      "status": "skipped",
+      "details": "10 unresolved evidence issue(s) recorded."
+    },
+    {
+      "name": "design specification",
+      "status": "passed",
+      "details": "10 section mappings recorded; measured geometry is distinguished from unavailable values."
+    },
+    {
+      "name": "browser navigation and links",
+      "status": "passed",
+      "details": "9 links inspected; 0 missing href or in-page targets."
+    },
+    {
+      "name": "images",
+      "status": "passed",
+      "details": "0 images inspected; 0 missing alt or failed loads."
+    },
+    {
+      "name": "console errors",
+      "status": "passed",
+      "details": "No browser console errors."
+    },
+    {
+      "name": "accessibility",
+      "status": "passed",
+      "details": "No axe violations."
+    },
+    {
+      "name": "visual comparison (desktop)",
+      "status": "failed",
+      "details": "failed: dimensions differ (actual 1440x3693, reference 1600x7142)"
+    },
+    {
+      "name": "visual comparison (mobile)",
+      "status": "unverified",
+      "details": "Reference screenshot missing: D:\\Internship\\BigDrops\\Example landing page\\apps\\example-landing-page-2\\qa\\reference\\mobile.png. Figma MCP must provide it."
+    },
+    {
+      "name": "visual repair workflow",
+      "status": "skipped",
+      "details": "No screenshot-repair passes requested. Set --repair-iterations from 1 to 3 for bounded iterative QA."
+    },
+    {
+      "name": "Lighthouse",
+      "status": "skipped",
+      "details": "Pass --lighthouse to run the local Lighthouse audit."
+    }
+  ],
+  "warnings": [
+    "No matching Figma section was identified for \"Overview\".",
+    "No matching Figma section was identified for \"Source and overview\".",
+    "No matching Figma section was identified for \"Navigation and hero\".",
+    "No matching Figma section was identified for \"Site pricing\".",
+    "No matching Figma section was identified for \"Team pricing\".",
+    "No matching Figma section was identified for \"Business plan\".",
+    "No matching Figma section was identified for \"Feature comparison\".",
+    "No matching Figma section was identified for \"Site plans summary\".",
+    "No matching Figma section was identified for \"FAQ\".",
+    "No matching Figma section was identified for \"Footer\"."
+  ],
+  "nextSteps": [
+    "Run typecheck and production build in the generated app.",
+    "Run browser QA with --base-url after starting the app.",
+    "Review every viewport comparison before claiming visual parity.",
+    "Review browser QA artifacts in D:\\Internship\\BigDrops\\Example landing page\\apps\\example-landing-page-2\\qa\\output."
+  ],
+  "reconciliation": {
+    "issues": [
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Overview\".",
+        "source": "00-overview"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Source and overview\".",
+        "source": "02-source-and-overview"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Navigation and hero\".",
+        "source": "03-navigation-and-hero"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Site pricing\".",
+        "source": "04-site-pricing"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Team pricing\".",
+        "source": "05-team-pricing"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Business plan\".",
+        "source": "06-business-plan"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Feature comparison\".",
+        "source": "07-feature-comparison"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Site plans summary\".",
+        "source": "08-site-plans-summary"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"FAQ\".",
+        "source": "09-faq"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Footer\".",
+        "source": "10-footer"
+      }
+    ],
+    "matchedSections": [
+      {
+        "contentSectionId": "00-overview",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "02-source-and-overview",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "03-navigation-and-hero",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "04-site-pricing",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "05-team-pricing",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "06-business-plan",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "07-feature-comparison",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "08-site-plans-summary",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "09-faq",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "10-footer",
+        "figmaNodeId": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "referenceImages": [
+    {
+      "name": "Example Landing Page.png",
+      "path": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\example-landing-page\\Example Landing Page.png",
+      "status": "passed"
+    }
+  ],
+  "evidence": {
+    "figmaMcp": false,
+    "responsiveFrames": 0,
+    "assets": 0,
+    "specification": "design-specification.json"
+  },
+  "visualQa": {
+    "references": [
+      {
+        "viewport": "desktop",
+        "referencePath": "D:\\Internship\\BigDrops\\Example landing page\\apps\\example-landing-page-2\\qa\\reference\\desktop.png",
+        "comparison": "failed"
+      },
+      {
+        "viewport": "mobile",
+        "referencePath": null,
+        "comparison": "unverified"
+      }
+    ],
+    "repairIterationsRequested": 0,
+    "verifiedRepairIterations": 0
+  }
+}

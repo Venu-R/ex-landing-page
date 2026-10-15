@@ -1,5 +1,4 @@
 packages:
   - "apps/*"
   - "packages/*"
-  - "turbo/generators/*"
-  - "generated-landing-page"
+  - "tools/*"

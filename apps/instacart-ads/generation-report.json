@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-10-13T20:54:20.770Z",
+  "appName": "instacart-ads",
+  "contentFile": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\instacart-ads\\content.docx",
+  "figmaUrl": "https://www.figma.com/design/cvwYj73vPZRlDrL4CE47Mf/Example-landing-page-2?node-id=1-2",
+  "appDir": "D:\\Internship\\BigDrops\\Example landing page\\apps\\instacart-ads",
+  "checks": [
+    {
+      "name": "DOCX content model",
+      "status": "passed",
+      "details": "46 blocks, 9 sections, 0 links, 0 assets."
+    },
+    {
+      "name": "Figma MCP evidence",
+      "status": "passed",
+      "details": "1 sections and 0 responsive frames supplied."
+    },
+    {
+      "name": "Figma asset localization",
+      "status": "passed",
+      "details": "34/34 assets localized."
+    },
+    {
+      "name": "content/design reconciliation",
+      "status": "skipped",
+      "details": "9 unresolved evidence issue(s) recorded."
+    },
+    {
+      "name": "browser navigation and links",
+      "status": "passed",
+      "details": "9 links inspected; 0 missing href or in-page targets."
+    },
+    {
+      "name": "images",
+      "status": "passed",
+      "details": "7 images inspected; 0 missing alt or failed loads."
+    },
+    {
+      "name": "console errors",
+      "status": "passed",
+      "details": "No browser console errors."
+    },
+    {
+      "name": "accessibility",
+      "status": "failed",
+      "details": "1 axe violations: link-in-text-block (p > a[href$=\"#top\"])"
+    },
+    {
+      "name": "visual comparison (desktop)",
+      "status": "failed",
+      "details": "failed: 22.80% pixels differ (threshold 1.00%)"
+    },
+    {
+      "name": "visual comparison (mobile)",
+      "status": "unverified",
+      "details": "Reference screenshot missing: D:\\Internship\\BigDrops\\Example landing page\\apps\\instacart-ads\\qa\\reference\\mobile.png. Figma MCP must provide it."
+    },
+    {
+      "name": "visual repair workflow",
+      "status": "unverified",
+      "details": "1 bounded screenshot pass(es) configured; code repair remains an agent action between passes."
+    },
+    {
+      "name": "Lighthouse",
+      "status": "skipped",
+      "details": "Pass --lighthouse to run the local Lighthouse audit."
+    }
+  ],
+  "warnings": [
+    "No matching Figma section was identified for \"Overview\".",
+    "No matching Figma section was identified for \"Header / Navigation\".",
+    "No matching Figma section was identified for \"Hero Section\".",
+    "No matching Figma section was identified for \"The Instacart Ads Initiative\".",
+    "No matching Figma section was identified for \"Our Marketplace\".",
+    "No matching Figma section was identified for \"Why Brands Partner With Us\".",
+    "No matching Figma section was identified for \"How It Works\".",
+    "No matching Figma section was identified for \"Footer\".",
+    "No matching Figma section was identified for \"Content Notes\"."
+  ],
+  "nextSteps": [
+    "Run typecheck and production build in the generated app.",
+    "Run browser QA with --base-url after starting the app.",
+    "Provide Figma MCP evidence and exported assets before claiming visual parity.",
+    "Review browser QA artifacts in D:\\Internship\\BigDrops\\Example landing page\\apps\\instacart-ads\\qa.",
+    "Review browser QA artifacts in D:\\Internship\\BigDrops\\Example landing page\\apps\\instacart-ads\\qa\\output."
+  ],
+  "reconciliation": {
+    "issues": [
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Overview\".",
+        "source": "00-overview"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Header / Navigation\".",
+        "source": "02-header-navigation"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Hero Section\".",
+        "source": "03-hero-section"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"The Instacart Ads Initiative\".",
+        "source": "04-the-instacart-ads-initiative"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Our Marketplace\".",
+        "source": "05-our-marketplace"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Why Brands Partner With Us\".",
+        "source": "06-why-brands-partner-with-us"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"How It Works\".",
+        "source": "07-how-it-works"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Footer\".",
+        "source": "08-footer"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Content Notes\".",
+        "source": "09-content-notes"
+      }
+    ],
+    "matchedSections": [
+      {
+        "contentSectionId": "00-overview",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "02-header-navigation",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "03-hero-section",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "04-the-instacart-ads-initiative",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "05-our-marketplace",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "06-why-brands-partner-with-us",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "07-how-it-works",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "08-footer",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "09-content-notes",
+        "figmaNodeId": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "evidence": {
+    "figmaMcp": true,
+    "responsiveFrames": 0,
+    "assets": 34
+  },
+  "visualQa": {
+    "references": [
+      {
+        "viewport": "desktop",
+        "referencePath": "D:\\Internship\\BigDrops\\Example landing page\\apps\\instacart-ads\\qa\\reference\\desktop.png",
+        "comparison": "failed",
+        "artifactPath": "D:\\Internship\\BigDrops\\Example landing page\\apps\\instacart-ads\\qa\\output\\desktop-diff.png"
+      },
+      {
+        "viewport": "mobile",
+        "referencePath": null,
+        "comparison": "unverified"
+      }
+    ],
+    "repairIterationsRequested": 1,
+    "verifiedRepairIterations": 0
+  }
+}

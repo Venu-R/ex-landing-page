@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "filename": "content.docx",
+    "parser": "mammoth",
+    "warnings": [
+      {
+        "type": "warning",
+        "message": "Unrecognised paragraph style: 'Title' (Style ID: Title)"
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "OpenAI Contact Sales — Landing Page Content",
+      "html": "<p>OpenAI Contact Sales — Landing Page Content</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Purpose: Content source for recreating the supplied OpenAI Contact Sales page. This document contains transcribed visible copy and structural notes. The original PNG is supplied separately and is not embedded in this document.",
+      "html": "<p><strong>Purpose: </strong>Content source for recreating the supplied OpenAI Contact Sales page. This document contains transcribed visible copy and structural notes. The original PNG is supplied separately and is not embedded in this document.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "1. Header / Navigation",
+      "html": "<h1>1. Header / Navigation</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brand: OpenAI",
+      "html": "<p>Brand: OpenAI</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Navigation links, in order:",
+      "html": "<p>Navigation links, in order:</p>",
+      "links": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Research",
+        "Product",
+        "Developers",
+        "Safety",
+        "Company"
+      ],
+      "html": "<ul><li>Research</li><li>Product</li><li>Developers</li><li>Safety</li><li>Company</li></ul>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Right-side link: Search",
+      "html": "<p>Right-side link: Search</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "2. Hero Section",
+      "html": "<h1>2. Hero Section</h1>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Heading",
+      "html": "<h2>Heading</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contact our sales team",
+      "html": "<p>Contact our sales team</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Description",
+      "html": "<h2>Description</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "We’re happy to answer questions and get you acquainted with OpenAI, including connecting you with helpful resources, exploring use cases for your team, and discussing pricing options.",
+      "html": "<p>We’re happy to answer questions and get you acquainted with OpenAI, including connecting you with helpful resources, exploring use cases for your team, and discussing pricing options.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hero image",
+      "html": "<h2>Hero image</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use the separate reference PNG to identify the hero photograph. The image shows people seated around a small red table with a laptop and coffee. Do not treat this description as replacement image content.",
+      "html": "<p>Use the separate reference PNG to identify the hero photograph. The image shows people seated around a small red table with a laptop and coffee. Do not treat this description as replacement image content.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "3. Contact Form",
+      "html": "<h1>3. Contact Form</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Section heading: Contact",
+      "html": "<p>Section heading: Contact</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The visible form contains the following fields in this order:",
+      "html": "<p>The visible form contains the following fields in this order:</p>",
+      "links": []
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Field label",
+          "Requirement",
+          "Visible control / placeholder"
+        ],
+        [
+          "First name",
+          "Required",
+          "Text input"
+        ],
+        [
+          "Last name",
+          "Required",
+          "Text input"
+        ],
+        [
+          "Business email",
+          "Required",
+          "Email input"
+        ],
+        [
+          "Phone number",
+          "Required",
+          "Phone input"
+        ],
+        [
+          "Company name",
+          "Required",
+          "Text input"
+        ],
+        [
+          "Job title",
+          "Required",
+          "Text input"
+        ],
+        [
+          "Country of residence",
+          "Required",
+          "Select dropdown; placeholder: Please select..."
+        ],
+        [
+          "Which of our products or services are you interested in?",
+          "Required",
+          "Select dropdown; placeholder: Select an option"
+        ],
+        [
+          "Anything else you would like us to know?",
+          "Not marked required in the reference",
+          "Multiline text area"
+        ]
+      ],
+      "cells": [
+        [
+          {
+            "text": "Field label",
+            "html": "<td><p>Field label</p></td>",
+            "header": false
+          },
+          {
+            "text": "Requirement",
+            "html": "<td><p>Requirement</p></td>",
+            "header": false
+          },
+          {
+            "text": "Visible control / placeholder",
+            "html": "<td><p>Visible control / placeholder</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "First name",
+            "html": "<td><p>First name</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Text input",
+            "html": "<td><p>Text input</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Last name",
+            "html": "<td><p>Last name</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Text input",
+            "html": "<td><p>Text input</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Business email",
+            "html": "<td><p>Business email</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Email input",
+            "html": "<td><p>Email input</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Phone number",
+            "html": "<td><p>Phone number</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Phone input",
+            "html": "<td><p>Phone input</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Company name",
+            "html": "<td><p>Company name</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Text input",
+            "html": "<td><p>Text input</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Job title",
+            "html": "<td><p>Job title</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Text input",
+            "html": "<td><p>Text input</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Country of residence",
+            "html": "<td><p>Country of residence</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Select dropdown; placeholder: Please select...",
+            "html": "<td><p>Select dropdown; placeholder: Please select...</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Which of our products or services are you interested in?",
+            "html": "<td><p>Which of our products or services are you interested in?</p></td>",
+            "header": false
+          },
+          {
+            "text": "Required",
+            "html": "<td><p>Required</p></td>",
+            "header": false
+          },
+          {
+            "text": "Select dropdown; placeholder: Select an option",
+            "html": "<td><p>Select dropdown; placeholder: Select an option</p></td>",
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Anything else you would like us to know?",
+            "html": "<td><p>Anything else you would like us to know?</p></td>",
+            "header": false
+          },
+          {
+            "text": "Not marked required in the reference",
+            "html": "<td><p>Not marked required in the reference</p></td>",
+            "header": false
+          },
+          {
+            "text": "Multiline text area",
+            "html": "<td><p>Multiline text area</p></td>",
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table><tbody><tr><td><p>Field label</p></td><td><p>Requirement</p></td><td><p>Visible control / placeholder</p></td></tr><tr><td><p>First name</p></td><td><p>Required</p></td><td><p>Text input</p></td></tr><tr><td><p>Last name</p></td><td><p>Required</p></td><td><p>Text input</p></td></tr><tr><td><p>Business email</p></td><td><p>Required</p></td><td><p>Email input</p></td></tr><tr><td><p>Phone number</p></td><td><p>Required</p></td><td><p>Phone input</p></td></tr><tr><td><p>Company name</p></td><td><p>Required</p></td><td><p>Text input</p></td></tr><tr><td><p>Job title</p></td><td><p>Required</p></td><td><p>Text input</p></td></tr><tr><td><p>Country of residence</p></td><td><p>Required</p></td><td><p>Select dropdown; placeholder: Please select...</p></td></tr><tr><td><p>Which of our products or services are you interested in?</p></td><td><p>Required</p></td><td><p>Select dropdown; placeholder: Select an option</p></td></tr><tr><td><p>Anything else you would like us to know?</p></td><td><p>Not marked required in the reference</p></td><td><p>Multiline text area</p></td></tr></tbody></table>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Helper text under Country of residence: Supported countries and territories",
+      "html": "<p>Helper text under Country of residence: Supported countries and territories</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Form submit button: Submit",
+      "html": "<p>Form submit button: Submit</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "The screenshot does not reveal the full list of countries or product/service dropdown options. Do not invent exact option lists. If needed, implement clearly identified options only when supported by another source.",
+      "html": "<p>The screenshot does not reveal the full list of countries or product/service dropdown options. Do not invent exact option lists. If needed, implement clearly identified options only when supported by another source.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "4. Footer",
+      "html": "<h1>4. Footer</h1>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Brand",
+      "html": "<h2>Brand</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "OpenAI",
+      "html": "<p>OpenAI</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Footer navigation columns",
+      "html": "<h2>Footer navigation columns</h2>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Research",
+        "Overview",
+        "Index",
+        "Product",
+        "Overview",
+        "GPT-4",
+        "DALL·E 2",
+        "Customer stories",
+        "Safety standards",
+        "Pricing",
+        "Safety",
+        "Overview",
+        "Company",
+        "About",
+        "Careers",
+        "Blog",
+        "Charter"
+      ],
+      "html": "<ul><li>Research</li><li>Overview</li><li>Index</li><li>Product</li><li>Overview</li><li>GPT-4</li><li>DALL·E 2</li><li>Customer stories</li><li>Safety standards</li><li>Pricing</li><li>Safety</li><li>Overview</li><li>Company</li><li>About</li><li>Careers</li><li>Blog</li><li>Charter</li></ul>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Footer legal and social links",
+      "html": "<h2>Footer legal and social links</h2>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "OpenAI © 2015–2023",
+        "Terms & policies",
+        "Twitter",
+        "YouTube",
+        "GitHub",
+        "SoundCloud",
+        "LinkedIn",
+        "Back to top ↑"
+      ],
+      "html": "<ul><li>OpenAI © 2015–2023</li><li>Terms &amp; policies</li><li>Twitter</li><li>YouTube</li><li>GitHub</li><li>SoundCloud</li><li>LinkedIn</li><li>Back to top ↑</li></ul>"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "5. Visual / Layout Notes (Reference Only)",
+      "html": "<h1>5. Visual / Layout Notes (Reference Only)</h1>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The page uses a warm pale cream background in the hero and footer, with vivid blue links and accents.",
+        "The header is a compact horizontal navigation bar.",
+        "The hero uses a two-column layout: large blue heading and description on the left, photograph on the right.",
+        "The contact section has a thin horizontal divider, the section title on the left, and a vertically stacked form on the right.",
+        "The form uses mostly full-width outlined controls and a black Submit button.",
+        "The footer contains the OpenAI brand at left, navigation columns across the upper area, and social/legal links below a thin blue divider.",
+        "At the bottom of the reference image, a decorative series of horizontal blue lines transitions into a solid blue area. Reproduce this only if it is part of the supplied reference design; do not interpret it as text or content.",
+        "Use the separately supplied PNG for exact colors, spacing, typography, imagery, and responsive visual comparison. These notes are descriptive, not pixel measurements."
+      ],
+      "html": "<ul><li>The page uses a warm pale cream background in the hero and footer, with vivid blue links and accents.</li><li>The header is a compact horizontal navigation bar.</li><li>The hero uses a two-column layout: large blue heading and description on the left, photograph on the right.</li><li>The contact section has a thin horizontal divider, the section title on the left, and a vertically stacked form on the right.</li><li>The form uses mostly full-width outlined controls and a black Submit button.</li><li>The footer contains the OpenAI brand at left, navigation columns across the upper area, and social/legal links below a thin blue divider.</li><li>At the bottom of the reference image, a decorative series of horizontal blue lines transitions into a solid blue area. Reproduce this only if it is part of the supplied reference design; do not interpret it as text or content.</li><li>Use the separately supplied PNG for exact colors, spacing, typography, imagery, and responsive visual comparison. These notes are descriptive, not pixel measurements.</li></ul>"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "6. Implementation Notes",
+      "html": "<h1>6. Implementation Notes</h1>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Preserve the wording and section order above.",
+        "The required-field indicators are visible beside the first eight form labels.",
+        "The screenshot does not specify form submission destination, validation messages, privacy consent text, or success state. Do not invent a backend integration or claim the form submits successfully without an actual configured endpoint.",
+        "Use semantic HTML and accessible labels for all form controls.",
+        "Do not embed the reference PNG in this DOCX. Keep it as a separate fixture file."
+      ],
+      "html": "<ul><li>Preserve the wording and section order above.</li><li>The required-field indicators are visible beside the first eight form labels.</li><li>The screenshot does not specify form submission destination, validation messages, privacy consent text, or success state. Do not invent a backend integration or claim the form submits successfully without an actual configured endpoint.</li><li>Use semantic HTML and accessible labels for all form controls.</li><li>Do not embed the reference PNG in this DOCX. Keep it as a separate fixture file.</li></ul>"
+    }
+  ]
+}

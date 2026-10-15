@@ -1,0 +1,35 @@
+{
+  "source": "figma-mcp",
+  "fileKey": "synthetic-design",
+  "nodeId": "0:1",
+  "capturedAt": "2026-10-14T00:00:00.000Z",
+  "sections": [
+    {
+      "nodeId": "1:2",
+      "name": "Hero",
+      "width": 1440,
+      "height": 820,
+      "text": ["Launch better products"],
+      "styles": { "fontFamily": "Inter", "background": "#F4F8FF" }
+    },
+    {
+      "nodeId": "1:20",
+      "name": "Testimonials",
+      "width": 1440,
+      "height": 600,
+      "text": ["What teams say"],
+      "styles": { "fontFamily": "Inter", "background": "#FFFFFF" }
+    },
+    {
+      "nodeId": "1:30",
+      "name": "Contact",
+      "width": 1440,
+      "height": 500,
+      "text": ["Talk to our team"],
+      "styles": { "fontFamily": "Inter", "background": "#101828" }
+    }
+  ],
+  "responsiveFrames": [
+    { "nodeId": "2:1", "name": "Mobile", "width": 390, "height": 844 }
+  ]
+}
