@@ -1,0 +1,410 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "filename": "content.docx",
+    "parser": "mammoth",
+    "warnings": [
+      {
+        "type": "warning",
+        "message": "Unrecognised paragraph style: 'Title' (Style ID: Title)"
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "UNADA — Landing Page Content",
+      "html": "<p>UNADA — Landing Page Content</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Source content for design-matched landing page generation",
+      "html": "<p><em>Source content for design-matched landing page generation</em></p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Agent instructions: Use this document as the textual content source. Use the separately supplied Unada.png screenshot and the Figma design URL for visual structure, layout, colors, typography, illustrations, icons, and responsive behavior. Do not invent extra marketing claims, links, customer details, or sections. Preserve placeholder/sample wording where shown unless approved copy is supplied.",
+      "html": "<p>Agent instructions: Use this document as the textual content source. Use the separately supplied Unada.png screenshot and the Figma design URL for visual structure, layout, colors, typography, illustrations, icons, and responsive behavior. Do not invent extra marketing claims, links, customer details, or sections. Preserve placeholder/sample wording where shown unless approved copy is supplied.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Brand and Navigation",
+      "html": "<h1>Brand and Navigation</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brand: UNADA.",
+      "html": "<p>Brand: UNADA.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Navigation items:",
+      "html": "<p>Navigation items:</p>",
+      "links": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Home",
+        "Services",
+        "Metaverse",
+        "Careers",
+        "Blog"
+      ],
+      "html": "<ul><li>Home</li><li>Services</li><li>Metaverse</li><li>Careers</li><li>Blog</li></ul>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Header call-to-action: Contact Us →",
+      "html": "<p>Header call-to-action: Contact Us →</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Hero Section",
+      "html": "<h1>Hero Section</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eyebrow: A TRUSTED COMPANY",
+      "html": "<p>Eyebrow: A TRUSTED COMPANY</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Next-Gen Software Services to Businesses",
+      "html": "<h2>Next-Gen Software Services to Businesses</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "html": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Primary call-to-action: Get Started →",
+      "html": "<p>Primary call-to-action: Get Started →</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Social icons shown: Dribbble, Facebook, Instagram.",
+      "html": "<p>Social icons shown: Dribbble, Facebook, Instagram.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hero visual: 3D-style seated software developer using a laptop, with small floating technology illustrations.",
+      "html": "<p>Hero visual: 3D-style seated software developer using a laptop, with small floating technology illustrations.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Trusted Companies",
+      "html": "<h1>Trusted Companies</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Caption: Trusted By 4,000+ Companies",
+      "html": "<p>Caption: Trusted By 4,000+ Companies</p>",
+      "links": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Spotify",
+        "Slack",
+        "Dropbox",
+        "Zoom"
+      ],
+      "html": "<ul><li>Spotify</li><li>Slack</li><li>Dropbox</li><li>Zoom</li></ul>"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Services Overview",
+      "html": "<h1>Services Overview</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Four service cards are shown.",
+      "html": "<p>Four service cards are shown.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Web Development",
+      "html": "<h2>Web Development</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "html": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Link label: Learn More →",
+      "html": "<p>Link label: Learn More →</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "App Development",
+      "html": "<h2>App Development</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "html": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Link label: Learn More →",
+      "html": "<p>Link label: Learn More →</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "AR/VR Development",
+      "html": "<h2>AR/VR Development</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "html": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Link label: Learn More →",
+      "html": "<p>Link label: Learn More →</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Blockchain Development",
+      "html": "<h2>Blockchain Development</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "html": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Link label: Learn More →",
+      "html": "<p>Link label: Learn More →</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "End-To-End Development Services",
+      "html": "<h1>End-To-End Development Services</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heading: End-To-End Development Services",
+      "html": "<p>Heading: End-To-End Development Services</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes, we need to check the time, wondering when our work or meeting will finish, without getting caught by others.",
+      "html": "<p>Sometimes, we need to check the time, wondering when our work or meeting will finish, without getting caught by others.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Visual: centered isometric development/workflow illustration with people, screens, a crane-like structure, and interface elements.",
+      "html": "<p>Visual: centered isometric development/workflow illustration with people, screens, a crane-like structure, and interface elements.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Why Choose Us",
+      "html": "<h1>Why Choose Us</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heading: Why Choose Us",
+      "html": "<p>Heading: Why Choose Us</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes, we need to check the time, wondering when our work or meeting will finish, without getting caught by others.",
+      "html": "<p>Sometimes, we need to check the time, wondering when our work or meeting will finish, without getting caught by others.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Visual: workspace photograph beside a quality-services illustration featuring a medal, shield, smiley face, and lightbulb.",
+      "html": "<p>Visual: workspace photograph beside a quality-services illustration featuring a medal, shield, smiley face, and lightbulb.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Accordion-style items:",
+      "html": "<p>Accordion-style items:</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Attention to Details",
+      "html": "<h2>Attention to Details</h2>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A Plan for Success",
+      "html": "<h2>A Plan for Success</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "You want results. We have found that the best way to get them is with up front research – of your company, competitors, target market and customer psychographics. Only after we fully understand you and your customers, do we recommend a plan of attack.",
+      "html": "<p>You want results. We have found that the best way to get them is with up front research – of your company, competitors, target market and customer psychographics. Only after we fully understand you and your customers, do we recommend a plan of attack.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Experts Only",
+      "html": "<h2>Experts Only</h2>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Meeting Deadlines",
+      "html": "<h2>Meeting Deadlines</h2>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Award-Winning",
+      "html": "<h2>Award-Winning</h2>"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Feedback from Our Clients",
+      "html": "<h1>Feedback from Our Clients</h1>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heading: Feedback from our clients",
+      "html": "<p>Heading: Feedback from our clients</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.",
+      "html": "<p>Our WORK speaks louder than our WORD. Find out how we helped clients overcome challenges and succeed.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Two testimonial cards are visible; both show the same sample author and quote.",
+      "html": "<p>Two testimonial cards are visible; both show the same sample author and quote.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Testimonial Author",
+      "html": "<h2>Testimonial Author</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Name: Jhony D",
+      "html": "<p>Name: Jhony D</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Handle: @jhony_D",
+      "html": "<p>Handle: @jhony_D</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Testimonial Quote (sample text)",
+      "html": "<h2>Testimonial Quote (sample text)</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+      "html": "<p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>",
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Visual treatment: quote marks, circular profile image, white cards with soft shadows, and a vertical turquoise pagination indicator.",
+      "html": "<p>Visual treatment: quote marks, circular profile image, white cards with soft shadows, and a vertical turquoise pagination indicator.</p>",
+      "links": []
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Visual and Layout Notes",
+      "html": "<h1>Visual and Layout Notes</h1>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Predominantly white background with very pale blue/pink blurred gradient accents.",
+        "Bright turquoise/cyan accents and dark gray headings/body text.",
+        "Compact horizontal header with centered navigation and right-aligned Contact Us action.",
+        "Two-column desktop hero: text on the left and developer illustration on the right.",
+        "Centered company-logo row below the hero.",
+        "Four service cards in one desktop row with subtle shadows and rounded corners.",
+        "Centered development-services illustration below its heading and description.",
+        "Why Choose Us section: visual composition on the left and accordion list on the right.",
+        "Testimonials section with centered heading/description and two side-by-side desktop cards.",
+        "Use responsive layouts; infer breakpoints from Figma when available.",
+        "Navigation and Learn More destinations are not shown; do not invent URLs."
+      ],
+      "html": "<ul><li>Predominantly white background with very pale blue/pink blurred gradient accents.</li><li>Bright turquoise/cyan accents and dark gray headings/body text.</li><li>Compact horizontal header with centered navigation and right-aligned Contact Us action.</li><li>Two-column desktop hero: text on the left and developer illustration on the right.</li><li>Centered company-logo row below the hero.</li><li>Four service cards in one desktop row with subtle shadows and rounded corners.</li><li>Centered development-services illustration below its heading and description.</li><li>Why Choose Us section: visual composition on the left and accordion list on the right.</li><li>Testimonials section with centered heading/description and two side-by-side desktop cards.</li><li>Use responsive layouts; infer breakpoints from Figma when available.</li><li>Navigation and Learn More destinations are not shown; do not invent URLs.</li></ul>"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Content and Evidence Rules",
+      "html": "<h1>Content and Evidence Rules</h1>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Use this DOCX for text; use the supplied screenshot and Figma evidence for visual decisions.",
+        "Preserve visible wording, including placeholder copy, unless approved replacement content is provided.",
+        "Do not invent additional sections, metrics, customer names, service descriptions, or testimonial claims.",
+        "Prefer actual Figma assets when available; the screenshot is a visual reference, not a substitute for individual source assets.",
+        "Record ambiguous text, unavailable assets, unresolved links, and unverified responsive details in the generation report."
+      ],
+      "html": "<ul><li>Use this DOCX for text; use the supplied screenshot and Figma evidence for visual decisions.</li><li>Preserve visible wording, including placeholder copy, unless approved replacement content is provided.</li><li>Do not invent additional sections, metrics, customer names, service descriptions, or testimonial claims.</li><li>Prefer actual Figma assets when available; the screenshot is a visual reference, not a substitute for individual source assets.</li><li>Record ambiguous text, unavailable assets, unresolved links, and unverified responsive details in the generation report.</li></ul>"
+    }
+  ]
+}

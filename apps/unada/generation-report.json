@@ -1,0 +1,237 @@
+{
+  "generatedAt": "2026-10-15T07:52:33.253Z",
+  "appName": "unada",
+  "contentFile": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\unada\\content.docx",
+  "figmaUrl": "https://www.figma.com/design/m3tT6rTqX5d1jVasaO1JAS/Unada?node-id=0-1&p=f&t=Ysr2mR6KmmvoN8Ny-0",
+  "appDir": "D:\\Internship\\BigDrops\\Example landing page\\apps\\unada",
+  "checks": [
+    {
+      "name": "DOCX content model",
+      "status": "passed",
+      "details": "61 blocks, 10 sections, 0 links, 0 assets."
+    },
+    {
+      "name": "Figma API JSON evidence",
+      "status": "passed",
+      "details": "1 sections and 0 responsive frames supplied."
+    },
+    {
+      "name": "Figma asset localization",
+      "status": "passed",
+      "details": "0/0 assets localized."
+    },
+    {
+      "name": "content/design reconciliation",
+      "status": "skipped",
+      "details": "10 unresolved evidence issue(s) recorded."
+    },
+    {
+      "name": "design specification",
+      "status": "passed",
+      "details": "10 section mappings recorded; measured geometry is distinguished from unavailable values."
+    },
+    {
+      "name": "browser navigation and links",
+      "status": "passed",
+      "details": "15 links inspected; 0 missing href or in-page targets."
+    },
+    {
+      "name": "images",
+      "status": "passed",
+      "details": "0 images inspected; 0 missing alt or failed loads."
+    },
+    {
+      "name": "console errors",
+      "status": "passed",
+      "details": "No browser console errors."
+    },
+    {
+      "name": "accessibility",
+      "status": "passed",
+      "details": "No axe violations."
+    },
+    {
+      "name": "visual comparison (desktop)",
+      "status": "failed",
+      "details": "failed: dimensions differ (actual 1440x2513, reference 1440x3312)"
+    },
+    {
+      "name": "visual comparison (mobile)",
+      "status": "unverified",
+      "details": "Reference screenshot missing: D:\\Internship\\BigDrops\\Example landing page\\apps\\unada\\qa\\reference\\mobile.png. Figma MCP must provide it."
+    },
+    {
+      "name": "visual repair workflow",
+      "status": "unverified",
+      "details": "1 bounded screenshot pass(es) configured; code repair remains an agent action between passes."
+    },
+    {
+      "name": "Lighthouse",
+      "status": "passed",
+      "details": "Lighthouse report written to D:\\Internship\\BigDrops\\Example landing page\\apps\\unada\\qa\\output\\lighthouse.json."
+    }
+  ],
+  "warnings": [
+    "No matching Figma section was identified for \"Overview\".",
+    "No matching Figma section was identified for \"Brand and Navigation\".",
+    "No matching Figma section was identified for \"Hero Section\".",
+    "No matching Figma section was identified for \"Trusted Companies\".",
+    "No matching Figma section was identified for \"Services Overview\".",
+    "No matching Figma section was identified for \"End-To-End Development Services\".",
+    "No matching Figma section was identified for \"Why Choose Us\".",
+    "No matching Figma section was identified for \"Feedback from Our Clients\".",
+    "No matching Figma section was identified for \"Visual and Layout Notes\".",
+    "No matching Figma section was identified for \"Content and Evidence Rules\"."
+  ],
+  "nextSteps": [
+    "Run typecheck and production build in the generated app.",
+    "Run browser QA with --base-url after starting the app.",
+    "Review every viewport comparison before claiming visual parity.",
+    "Review browser QA artifacts in D:\\Internship\\BigDrops\\Example landing page\\apps\\unada\\qa\\output."
+  ],
+  "reconciliation": {
+    "issues": [
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Overview\".",
+        "source": "00-overview"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Brand and Navigation\".",
+        "source": "02-brand-and-navigation"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Hero Section\".",
+        "source": "03-hero-section"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Trusted Companies\".",
+        "source": "04-trusted-companies"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Services Overview\".",
+        "source": "05-services-overview"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"End-To-End Development Services\".",
+        "source": "06-end-to-end-development-services"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Why Choose Us\".",
+        "source": "07-why-choose-us"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Feedback from Our Clients\".",
+        "source": "08-feedback-from-our-clients"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Visual and Layout Notes\".",
+        "source": "09-visual-and-layout-notes"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Content and Evidence Rules\".",
+        "source": "10-content-and-evidence-rules"
+      }
+    ],
+    "matchedSections": [
+      {
+        "contentSectionId": "00-overview",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "02-brand-and-navigation",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "03-hero-section",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "04-trusted-companies",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "05-services-overview",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "06-end-to-end-development-services",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "07-why-choose-us",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "08-feedback-from-our-clients",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "09-visual-and-layout-notes",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "10-content-and-evidence-rules",
+        "figmaNodeId": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "referenceImages": [
+    {
+      "name": "Unada.png",
+      "path": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\unada\\Unada.png",
+      "status": "passed"
+    }
+  ],
+  "evidence": {
+    "figmaMcp": false,
+    "responsiveFrames": 0,
+    "assets": 0,
+    "specification": "design-specification.json"
+  },
+  "visualQa": {
+    "references": [
+      {
+        "viewport": "desktop",
+        "referencePath": "D:\\Internship\\BigDrops\\Example landing page\\apps\\unada\\qa\\reference\\desktop.png",
+        "comparison": "failed"
+      },
+      {
+        "viewport": "mobile",
+        "referencePath": null,
+        "comparison": "unverified"
+      }
+    ],
+    "repairIterationsRequested": 1,
+    "verifiedRepairIterations": 0
+  }
+}

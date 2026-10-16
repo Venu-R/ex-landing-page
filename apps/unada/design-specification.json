@@ -1,0 +1,170 @@
+{
+  "source": "figma-api-json",
+  "fileKey": "m3tT6rTqX5d1jVasaO1JAS",
+  "rootNodeId": "0:1",
+  "sections": [
+    {
+      "contentSectionId": "00-overview",
+      "figmaNodeId": null,
+      "name": "00-overview",
+      "order": 0,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "02-brand-and-navigation",
+      "figmaNodeId": null,
+      "name": "02-brand-and-navigation",
+      "order": 1,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "03-hero-section",
+      "figmaNodeId": null,
+      "name": "03-hero-section",
+      "order": 2,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "04-trusted-companies",
+      "figmaNodeId": null,
+      "name": "04-trusted-companies",
+      "order": 3,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "05-services-overview",
+      "figmaNodeId": null,
+      "name": "05-services-overview",
+      "order": 4,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "06-end-to-end-development-services",
+      "figmaNodeId": null,
+      "name": "06-end-to-end-development-services",
+      "order": 5,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "07-why-choose-us",
+      "figmaNodeId": null,
+      "name": "07-why-choose-us",
+      "order": 6,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "08-feedback-from-our-clients",
+      "figmaNodeId": null,
+      "name": "08-feedback-from-our-clients",
+      "order": 7,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "09-visual-and-layout-notes",
+      "figmaNodeId": null,
+      "name": "09-visual-and-layout-notes",
+      "order": 8,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "10-content-and-evidence-rules",
+      "figmaNodeId": null,
+      "name": "10-content-and-evidence-rules",
+      "order": 9,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    }
+  ],
+  "responsiveFrames": [],
+  "unresolvedIssues": [
+    "No matching Figma section was identified for \"Overview\".",
+    "No matching Figma section was identified for \"Brand and Navigation\".",
+    "No matching Figma section was identified for \"Hero Section\".",
+    "No matching Figma section was identified for \"Trusted Companies\".",
+    "No matching Figma section was identified for \"Services Overview\".",
+    "No matching Figma section was identified for \"End-To-End Development Services\".",
+    "No matching Figma section was identified for \"Why Choose Us\".",
+    "No matching Figma section was identified for \"Feedback from Our Clients\".",
+    "No matching Figma section was identified for \"Visual and Layout Notes\".",
+    "No matching Figma section was identified for \"Content and Evidence Rules\"."
+  ]
+}

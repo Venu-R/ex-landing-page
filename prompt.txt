@@ -1,0 +1,13 @@
+Generate a responsive landing page using the following inputs:
+
+- **Content:** `fixtures/<folder_name>/content.docx`
+- **Figma URL:** <URL>
+- **Figma JSON fallback:** `fixtures/<folder_name>/figma-response.json` — automatically generate this file using the configured Figma PAT if it doesn't exist or needs refreshing; use it as fallback when Figma MCP is unavailable or rate-limited.
+- **Visual reference:** `fixtures/<folder_name>/<name>.png`
+
+Follow `AGENTS.md` for the complete workflow. Generate the independent app under `apps/`, retrieve and localize available assets, implement the design, run the required QA checks, fix discrepancies within the defined iteration limit, and report the results honestly.
+
+Do not overwrite existing apps or unrelated changes. Proceed with generation.
+
+
+

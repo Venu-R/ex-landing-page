@@ -194,7 +194,7 @@ export function buildDesignSpecification(
   }
 
   return {
-    source: "figma-mcp",
+    source: evidence.source,
     fileKey: evidence.fileKey,
     rootNodeId: evidence.nodeId,
     sections: reconciliation.matchedSections.map((match, order) => {
