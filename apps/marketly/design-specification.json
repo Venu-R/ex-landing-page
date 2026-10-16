@@ -1,0 +1,157 @@
+{
+  "source": "figma-api-json",
+  "fileKey": "IqlSP33oWVp3qOzVtO2ask",
+  "rootNodeId": "0:1",
+  "sections": [
+    {
+      "contentSectionId": "00-overview",
+      "figmaNodeId": null,
+      "name": "00-overview",
+      "order": 0,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "02-header",
+      "figmaNodeId": null,
+      "name": "02-header",
+      "order": 1,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "03-contact-hero",
+      "figmaNodeId": null,
+      "name": "03-contact-hero",
+      "order": 2,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "04-contact-form",
+      "figmaNodeId": null,
+      "name": "04-contact-form",
+      "order": 3,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "05-contact-information",
+      "figmaNodeId": "1:26",
+      "name": "Contact Information",
+      "order": 4,
+      "dimensions": {
+        "width": 1920,
+        "height": 2432.46484375
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "medium",
+      "geometrySource": "measured"
+    },
+    {
+      "contentSectionId": "06-newsletter",
+      "figmaNodeId": null,
+      "name": "06-newsletter",
+      "order": 5,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "07-footer",
+      "figmaNodeId": null,
+      "name": "07-footer",
+      "order": 6,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "08-visual-and-layout-notes",
+      "figmaNodeId": null,
+      "name": "08-visual-and-layout-notes",
+      "order": 7,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    },
+    {
+      "contentSectionId": "09-content-and-evidence-rules",
+      "figmaNodeId": null,
+      "name": "09-content-and-evidence-rules",
+      "order": 8,
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "typography": {},
+      "colors": {},
+      "assets": [],
+      "confidence": "low",
+      "geometrySource": "unavailable"
+    }
+  ],
+  "responsiveFrames": [],
+  "unresolvedIssues": [
+    "No matching Figma section was identified for \"Overview\".",
+    "No matching Figma section was identified for \"Header\".",
+    "No matching Figma section was identified for \"Contact Hero\".",
+    "No matching Figma section was identified for \"Contact Form\".",
+    "Content value \"4. Contact Information\" was not an exact match in Figma section \"Contact Information\".",
+    "Content value \"Assistance hours: Monday - Friday 6 am to 8 pm EST\" was not an exact match in Figma section \"Contact Information\".",
+    "Content value \"Phone: (808) 998-34256\" was not an exact match in Figma section \"Contact Information\".",
+    "Content value \"Assistance hours: Monday - Friday 6 am to 8 pm EST\" was not an exact match in Figma section \"Contact Information\".",
+    "No matching Figma section was identified for \"Newsletter\".",
+    "No matching Figma section was identified for \"Footer\".",
+    "No matching Figma section was identified for \"Visual and Layout Notes\".",
+    "No matching Figma section was identified for \"Content and Evidence Rules\"."
+  ]
+}

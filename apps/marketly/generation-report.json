@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-10-16T15:02:31.192Z",
+  "appName": "marketly",
+  "contentFile": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\marketly\\content.docx",
+  "figmaUrl": "https://www.figma.com/design/IqlSP33oWVp3qOzVtO2ask/Marketly?node-id=0-1&t=m6ZvczGAwbmqtegh-0",
+  "appDir": "D:\\Internship\\BigDrops\\Example landing page\\apps\\marketly",
+  "checks": [
+    {
+      "name": "DOCX content model",
+      "status": "passed",
+      "details": "60 blocks, 9 sections, 0 links, 0 assets."
+    },
+    {
+      "name": "Figma API JSON evidence",
+      "status": "passed",
+      "details": "1 sections and 0 responsive frames supplied."
+    },
+    {
+      "name": "Figma asset localization",
+      "status": "passed",
+      "details": "0/0 assets localized."
+    },
+    {
+      "name": "content/design reconciliation",
+      "status": "skipped",
+      "details": "12 unresolved evidence issue(s) recorded."
+    },
+    {
+      "name": "design specification",
+      "status": "passed",
+      "details": "9 section mappings recorded; measured geometry is distinguished from unavailable values."
+    },
+    {
+      "name": "browser navigation and links",
+      "status": "passed",
+      "details": "35 links inspected; 0 missing href or in-page targets."
+    },
+    {
+      "name": "images",
+      "status": "passed",
+      "details": "0 images inspected; 0 missing alt or failed loads."
+    },
+    {
+      "name": "console errors",
+      "status": "passed",
+      "details": "No browser console errors."
+    },
+    {
+      "name": "accessibility",
+      "status": "passed",
+      "details": "No axe violations."
+    },
+    {
+      "name": "visual comparison (desktop)",
+      "status": "failed",
+      "details": "failed: dimensions differ (actual 1440x2439, reference 1920x2433)"
+    },
+    {
+      "name": "visual comparison (mobile)",
+      "status": "unverified",
+      "details": "Reference screenshot missing: D:\\Internship\\BigDrops\\Example landing page\\apps\\marketly\\qa\\reference\\mobile.png. Figma MCP must provide it."
+    },
+    {
+      "name": "visual repair workflow",
+      "status": "unverified",
+      "details": "1 bounded screenshot pass(es) configured; code repair remains an agent action between passes."
+    },
+    {
+      "name": "Lighthouse",
+      "status": "passed",
+      "details": "Lighthouse report written to D:\\Internship\\BigDrops\\Example landing page\\apps\\marketly\\qa\\output\\lighthouse.json."
+    }
+  ],
+  "warnings": [
+    "No matching Figma section was identified for \"Overview\".",
+    "No matching Figma section was identified for \"Header\".",
+    "No matching Figma section was identified for \"Contact Hero\".",
+    "No matching Figma section was identified for \"Contact Form\".",
+    "Content value \"4. Contact Information\" was not an exact match in Figma section \"Contact Information\".",
+    "Content value \"Assistance hours: Monday - Friday 6 am to 8 pm EST\" was not an exact match in Figma section \"Contact Information\".",
+    "Content value \"Phone: (808) 998-34256\" was not an exact match in Figma section \"Contact Information\".",
+    "Content value \"Assistance hours: Monday - Friday 6 am to 8 pm EST\" was not an exact match in Figma section \"Contact Information\".",
+    "No matching Figma section was identified for \"Newsletter\".",
+    "No matching Figma section was identified for \"Footer\".",
+    "No matching Figma section was identified for \"Visual and Layout Notes\".",
+    "No matching Figma section was identified for \"Content and Evidence Rules\"."
+  ],
+  "nextSteps": [
+    "Run typecheck and production build in the generated app.",
+    "Run browser QA with --base-url after starting the app.",
+    "Review every viewport comparison before claiming visual parity.",
+    "Review browser QA artifacts in D:\\Internship\\BigDrops\\Example landing page\\apps\\marketly\\qa\\output."
+  ],
+  "reconciliation": {
+    "issues": [
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Overview\".",
+        "source": "00-overview"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Header\".",
+        "source": "02-header"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Contact Hero\".",
+        "source": "03-contact-hero"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Contact Form\".",
+        "source": "04-contact-form"
+      },
+      {
+        "type": "conflict",
+        "severity": "warning",
+        "message": "Content value \"4. Contact Information\" was not an exact match in Figma section \"Contact Information\".",
+        "source": "05-contact-information"
+      },
+      {
+        "type": "conflict",
+        "severity": "warning",
+        "message": "Content value \"Assistance hours: Monday - Friday 6 am to 8 pm EST\" was not an exact match in Figma section \"Contact Information\".",
+        "source": "05-contact-information"
+      },
+      {
+        "type": "conflict",
+        "severity": "warning",
+        "message": "Content value \"Phone: (808) 998-34256\" was not an exact match in Figma section \"Contact Information\".",
+        "source": "05-contact-information"
+      },
+      {
+        "type": "conflict",
+        "severity": "warning",
+        "message": "Content value \"Assistance hours: Monday - Friday 6 am to 8 pm EST\" was not an exact match in Figma section \"Contact Information\".",
+        "source": "05-contact-information"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Newsletter\".",
+        "source": "06-newsletter"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Footer\".",
+        "source": "07-footer"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Visual and Layout Notes\".",
+        "source": "08-visual-and-layout-notes"
+      },
+      {
+        "type": "missing-content",
+        "severity": "warning",
+        "message": "No matching Figma section was identified for \"Content and Evidence Rules\".",
+        "source": "09-content-and-evidence-rules"
+      }
+    ],
+    "matchedSections": [
+      {
+        "contentSectionId": "00-overview",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "02-header",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "03-contact-hero",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "04-contact-form",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "05-contact-information",
+        "figmaNodeId": "1:26",
+        "confidence": "medium"
+      },
+      {
+        "contentSectionId": "06-newsletter",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "07-footer",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "08-visual-and-layout-notes",
+        "figmaNodeId": null,
+        "confidence": "low"
+      },
+      {
+        "contentSectionId": "09-content-and-evidence-rules",
+        "figmaNodeId": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "referenceImages": [
+    {
+      "name": "Marketly.png",
+      "path": "D:\\Internship\\BigDrops\\Example landing page\\fixtures\\marketly\\Marketly.png",
+      "status": "passed"
+    }
+  ],
+  "evidence": {
+    "figmaMcp": false,
+    "responsiveFrames": 0,
+    "assets": 0,
+    "specification": "design-specification.json"
+  },
+  "visualQa": {
+    "references": [
+      {
+        "viewport": "desktop",
+        "referencePath": "D:\\Internship\\BigDrops\\Example landing page\\apps\\marketly\\qa\\reference\\desktop.png",
+        "comparison": "failed"
+      },
+      {
+        "viewport": "mobile",
+        "referencePath": null,
+        "comparison": "unverified"
+      }
+    ],
+    "repairIterationsRequested": 1,
+    "verifiedRepairIterations": 0
+  }
+}
